@@ -1,0 +1,25 @@
+h1 {
+  color: black;
+  font-size: 28px;
+}
+
+p {
+  border: solid 2px black;
+  font-size: 18;
+  font-weight: normal;
+  width: 300px;
+  padding: 20px;
+  background-image: url('duck.png');
+  background-position: left;
+  background-repeat: no-repeat;
+
+}
+
+ .masodik{
+   background-position: center ;
+ }
+
+
+ .harmadik{
+   background-position: right ;
+ }

@@ -1,0 +1,26 @@
+h1 {
+  color: black;
+  font-size: 28px;
+}
+
+p {
+  padding-left: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 18;
+  font-weight: normal;
+  width: 300px;
+  border-left: solid;
+  border-bottom: solid;
+  border-right: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#utolso {
+  border-bottom: 0;
+}
+
+p:hover {
+  background-color: orange;
+}

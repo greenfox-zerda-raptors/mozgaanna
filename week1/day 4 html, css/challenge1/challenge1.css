@@ -1,0 +1,17 @@
+span {
+  font-size: 30px;
+  text-align: left;
+  color: #FF0000;
+  font-family: "Times New Roman";
+
+}
+
+.boxed {
+  border: 3px solid black;
+  background: #FFFF00;
+  width: 240px;
+  height: 45px;
+  margin: 5px 0;
+  padding: 20px;
+
+}

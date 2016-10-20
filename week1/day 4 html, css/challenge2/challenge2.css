@@ -1,0 +1,25 @@
+span {
+  font-size: 30px;
+  text-indent: 15px;
+
+  text-align: left;
+  color: #0000FF;
+  font-family: "Times New Roman";
+
+}
+
+.boxed {
+  border: 3px solid black;
+  background: #FFFF00;
+  width: 200px;
+  height: 40px;
+  padding: 20px;
+
+}
+
+.boxes {
+   padding: 20px 20px;
+   background: green;
+   margin:  5px 5px;
+   width: 248px;
+ }

@@ -1,0 +1,45 @@
+h1 {
+  font-size: 34;
+  text-align: left;
+  color: blue;
+  font-family: "Times New Roman";
+  margin: 20px 5px;
+}
+
+h2 {
+  font-size: 26;
+  text-align: left;
+  color: #CCCC00;
+  font-family: "Times New Roman";
+  margin: 10px 5px;
+}
+
+p {
+  font-size: 12;
+  text-align: left;
+  color: black;
+  font-family: "Courier";
+  margin: 10px 5px;
+}
+
+#a1 {
+  list-style-type: square;
+}
+
+#a1 li {
+  color: blue;
+}
+
+#a1 ul li {
+  color: black;
+  list-style-type: disc;
+}
+
+#a1 ol li {
+  color: black;
+}
+
+#a1 ul li:first-child {
+  color: red;
+  list-style-type: disc;
+}

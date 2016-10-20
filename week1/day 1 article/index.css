@@ -1,0 +1,32 @@
+h1{
+  font-size: 34;
+  text-align: center;
+  color: rgba(0,0,0,.8);
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+
+h2{
+  font-weight: lighter;;
+  text-align: center;
+  color: rgba(0,0,0,.44);
+  font-family: Trebuchet MS;
+}
+
+p {
+  font-size: 18;
+  color: rgba(0,0,0,.8);
+  font-family: Didot Italic;
+}
+
+article{
+  width: 600px;
+  margin: auto;
+}
+img{
+
+  width: 100%;
+}
+
+html, body{
+  margin: 0;
+}

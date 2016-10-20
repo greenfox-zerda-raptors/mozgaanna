@@ -1,0 +1,42 @@
+span {
+  font-size: 30px;
+  text-indent: 15px;
+  color: #0000FF;
+  font-family: "Times New Roman";
+
+}
+
+span1 {
+  font-size: 30px;
+  text-indent: 15px;
+  color: #FF0000;
+  font-family: "Times New Roman";
+
+}
+
+.boxed1 {
+  margin: 20px 20px solid green;
+  border: 3px solid black;
+  background: #FFFF00;
+  width: 200px;
+  height: 40px;
+  padding: 20px;
+
+}
+
+.boxed2 {
+  margin: 20px 20px solid green;
+  border: 3px solid black;
+  background: #00FFFF;
+  width: 200px;
+  height: 40px;
+  padding: 20px;
+}
+
+.boxes {
+   padding: 20px;
+   background: green;
+   margin:  5px 5px;
+   width: 248px;
+
+ }
