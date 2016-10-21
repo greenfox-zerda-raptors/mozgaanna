@@ -1,0 +1,125 @@
+header {
+  font-family: "Courier New";
+  font-weight: bold;
+  text-align: left;
+
+  vertical-align: baseline;
+  padding-left: 60px;
+
+  color: black;
+  width: 100%;
+  height: 400px;
+
+  background-image: url('cv.photo.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 60% 35%;
+}
+
+
+
+div {
+  vertical-align: baseline;
+  padding-top: 240px;
+}
+
+
+
+html body {
+  font-family: "Courier New";
+  margin: 0;
+}
+
+
+
+p {
+  margin: 0;
+
+  text-align: justify;
+  font-size: 18;
+  letter-spacing: 2.5px;
+}
+
+
+.hello {
+  font-size: 34;
+}
+
+.name {
+  font-size: 76;
+}
+
+
+
+span {
+  font-weight: bold;
+  /*padding-left: 180px;*/
+
+  padding-top: 40px;
+  font-size: 18;
+}
+
+
+
+#listone {
+  list-style-type: square;
+  font-size: 18;
+  color: black;
+  padding-left: 150px;
+  padding-bottom: 40px;
+}
+
+
+
+main {
+  padding-top: 65px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-family: "Courier New";
+}
+
+
+
+.quote1 {
+  background-color:	#4D4C4C;
+  height: 150px;
+  color: white;
+  border: 3px solid #4D4C4C;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+
+.mondat {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 32px;
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+
+.mark {
+  text-align: left;
+  font-size: 65px;
+}
+
+
+.notable {
+  padding-top: 20px;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+
+hr {
+  border-width: 2px;
+  border-color: black;
+  margin-left: -40px;
+  margin-right: -40px;
+}
