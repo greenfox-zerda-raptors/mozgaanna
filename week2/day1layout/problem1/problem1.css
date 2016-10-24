@@ -1,0 +1,24 @@
+p {
+  font-size: 18;
+  font-family: "Times New Roman";
+  width: 300px;
+  text-align: justify;
+
+}
+
+hr{
+  border-width: 1px;
+  border-color: black;
+  width: 300px;
+  margin-left: 0;
+
+}
+
+img {
+  float: left;
+  padding: 0px 10px 15px 10px;
+}
+
+#second{
+  float: right;
+}
