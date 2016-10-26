@@ -1,0 +1,137 @@
+body {
+  width: auto;
+  height: 800px;
+  margin: 0;
+}
+main {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  line-height: inherit;
+  position: relative;
+  flex-grow: 1;
+  padding: 1em;
+  border-left: 1px solid #a7d7f9;
+  border-bottom: 1px solid #a7d7f9;
+  border-right-width: 0;
+  display: block;
+  margin-left: 11em;
+}
+h1 {
+  border-bottom: 1px solid grey;
+  font-family: serif;
+  font-weight: lighter;
+  padding-bottom: 1px;
+}
+p {
+  font-size: 0.875em;
+  z-index: 0;
+  line-height: 1.6;
+}
+.name {
+  font-weight: bold;
+}
+.infobox{
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  width: 300px;
+  height: 200px;
+  float: right;
+  font-size: 80%;
+  line-height: 1.5em;
+  padding: 0.2em;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+  float: right;
+}
+.infobox img{
+  width: 200px;
+  height: 250px;
+  float: inherit;
+  padding: 10px;
+}
+.infobox .namehead{
+  text-align: center;
+}
+.infobox td, .infobox th {
+  vertical-align: top;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+.menu {
+  font-weight: bold;
+  text-align: left;
+}
+
+#leftsidebar {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 10em;
+  float: left;
+
+}
+#logo {
+  width: 8em;
+  height: 10em;
+}
+.firstlist {
+  font-size: 100%;
+  line-height: 1.125em;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+.firstlist:last-child{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.inter{
+  padding: 0;
+}
+
+.interaction {
+  font-size: 100%;
+  line-height: 1.125em;
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+}
+h2{
+  font-size: 1em;
+  padding-left: 10px;
+
+}
+#toc {
+  text-align: left;
+  border: 1px solid #aaa;
+  background-color: #f9f9f9;
+  padding-right: 10px;
+  font-size: 95%;
+  line-height: 1.6em;
+  display: table;
+}
+.toctext {
+  padding-left: 30px;
+}
+
+h3{
+  font-size: 1.5em;
+  padding-bottom: 1px;
+  border-bottom: 1px solid grey;
+  font-family: serif;
+  font-weight: lighter;
+}
+h4 {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.quote {
+  padding-left: 50px;
+  padding-right: 50px;
+}
