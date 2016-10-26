@@ -1,0 +1,221 @@
+html {
+  width: 900px;
+}
+form {
+  background-color: #ddd6cd;
+  box-sizing: border-box;
+  width: 800px;
+  position: static;
+}
+h2{
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: white;
+  padding-left: 20px;
+  /*vertical-align: middle;*/
+  padding-bottom: 15px;
+}
+h1 {
+  color: #420d69;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+#container {
+  width: 600px;
+  height: 475px;
+  margin-left: 100px;
+  /*background-color: red;*/
+  background-color: #ddd6cd;
+}
+.szemelyes {
+  background-color: #948b97;
+  text-align: left;
+  font-family: sans-serif;
+  width: 290px;
+  height: 35px;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+}
+.kapcsolat {
+  background-color: #948b97;
+  text-align: left;
+  width: 290px;
+  height: 35px;
+  position: relative;
+  float: right;
+  border-radius: 3px;
+}
+
+.szoveg {
+  color: #420d69;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.imp{
+  color: red;
+}
+.input {
+  padding-bottom: 15px;
+}
+.input-1 {
+  display: inline-block;
+  float: left;
+}
+.input-2 {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  padding-left: 20px;
+  column-count: 2;
+}
+#input-22{
+  display: inline-block;
+}
+#genderf{
+  display: inline-block;
+}
+
+.text {
+  padding-top: 5px;
+}
+
+.lila {
+  color: #420d69;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: normal;
+  float: right;
+}
+.marka {
+  clear: both;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+}
+input[type=year] {
+  height: 35px;
+  width: 70px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+}
+input[type=url] {
+  width: 290px;
+  height: 35px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+}
+input[type=email] {
+  width: 290px;
+  height: 35px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+}
+input[type=tel] {
+  width: 290px;
+  height: 35px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+}
+
+input[type=radio] {
+  float: left;
+}
+select {
+  width: 290px;
+  height: 35px;
+  background-color: white;
+  border-color: #420d69;
+}
+input[type=checkbox] {
+  width: 25px;
+  height: 20px;
+  background-color: white;
+  border-color: #420d69;
+  border-width: thin;
+  border-radius: 3px;
+  float: left;
+}
+.balra, .jobbra {
+  padding-top: 15px;
+  display: inline-block;
+  width: 130px;
+}
+
+.check {
+color: #420d69;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: normal;
+}
+p {
+  color: grey;
+  font-family: sans-serif;
+}
+.intro {
+  background-color: #ddd6cd;
+  font-family: sans-serif;
+  width: 600px;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  margin-left: 100px;
+}
+input[type="fileuuu"] {
+    display: none;
+}
+#fileuuu{
+  border-color: #420d69;
+  border-radius: 3px;
+  border-width: thin;
+  width: 200px;
+  height: 35px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button {
+  border-color: #420d69;
+  background-color: #420d69;
+  border-radius: 3px;
+  border-width: thin;
+  width: 200px;
+  font-size: 18px;
+  color: white;
+  height: 35px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#input-22, #genderf {
+  color: #420d69;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: normal;
+  display: inline-block;
+}
+#inline {
+  display: inline-block;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="forms.css">
+  <title> M.Anna fillout </title>
+</head>
+
+<body>
+  <form>
+  <header>
+      <h1>Profil</h1>
+  </header>
+
+  <div id="container">
+    <div class="szemelyes">
+      <h2>Szemelyes adatok</h2>
+
+      <div class="input">
+        <span class="szoveg">Nev</span><span class="imp"> *</span> <br>
+          <input type="text" name="name">
+      </div>
+
+    <div id="inline">
+
+      <div class="input-1">
+        <span class="szoveg">Szuletesi eved</span> <br>
+          <input type="year" name="evszam" placeholder="pl. 1984">
+      </div>
+
+
+
+      <div class="input-2">
+          <span class="szoveg">Nemed</span> <br>
+              <div id="input-22">
+                  <input  id="genderm" type="radio" name="gender" value="m">
+                    <label for="genderm">ferfi
+              </div>
+              <div id="genderf">
+                <input id="genderf" type="radio" name="gender" value="f">
+                    <label for="genderf">no
+              </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+      <div class="marka">
+        <br>
+        <span class="szoveg">Milyen markakat szeretsz?</span> <br>
+          <span class="balra">
+            <input type="checkbox" name="marka"> <div class="check"> Adidas </div> <br>
+            <input type="checkbox" name="marka"> <div class="check"> Apple </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Coca Cola </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Mazda </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Nike </div><br>
+          </span>
+          <span class="jobbra">
+            <input type="checkbox" name="marka"> <div class="check"> Opel </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Ray Ban </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Starbucks </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Tesla </div><br>
+            <input type="checkbox" name="marka"> <div class="check"> Yahoo </div><br>
+          </span>
+
+          <p>Tobbet is valaszthatsz! </p>
+      </div>
+
+    </div>
+
+
+
+    <div class="kapcsolat">
+      <h2>Kapcsolat</h2>
+
+      <div class="input">
+        <span class="szoveg">Telefonszam</span><span class="imp"> *</span> <br>
+          <input type="tel" name="telcsi" placeholder="+36 -- --- ---- "> <br>
+      </div>
+      <div class="input">
+        <span class="szoveg">E-mail cim</span><span class="imp"> *</span> <br>
+          <input type="email" name="email" placeholder="nev@domain.hu"><br>
+      </div>
+      <div class="input">
+        <span class="szoveg">Facebook profilod</span> <br>
+          <input type="url" name="face" placeholder="http://facebook.com/..."><br>
+      </div>
+      <div class="input">
+        <span class="szoveg">Twitter profilod</span> <br>
+          <input type="url" name="twit" placeholder="http://twitter.com/..."> <br>
+      </div>
+      <div>
+        <span class="szoveg">Milyen hazban laksz?</span><br>
+          <select>
+            <option value="select">Valassz!</option>
+            <option value="panel">Panellakas</option>
+            <option value="kertes">Kerteshaz</option>
+            <option value="tegla">Tegla</option>
+            <option value="egyeb">Egyeb</option>
+          </select>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="intro">
+    <span class="szoveg">Bemutatkozas</span><span class="imp"> *</span><br>
+      <input type="text" name="magad"> <br>
+
+      <span class="szoveg"> CV feltoltese </span> <br>
+
+
+
+
+        <!-- <input id="fileuuu" type="file" value="FILE"></input> -->
+
+        <label for="fileuuu">
+          FILE KIVALASZTASA
+        </label>
+        <br>
+        <!-- <input id="file-upload" type="file"/> <br> -->
+
+
+          <button type="button">MENTES</button>
+  </div>
+
+
+
+
+
+
+    <footer>
+    </footer>
+  </form>
+
+</body>
+
+
+
+</html>
