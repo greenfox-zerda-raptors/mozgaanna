@@ -1,0 +1,53 @@
+
+#button1 {
+  border-color: Gainsboro Gainsboro;
+  background: linear-gradient(white, Gainsboro);
+  border-width: thin;
+  width: 220px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: DimGray;
+  box-shadow: 0px 1px 3px 3px Gainsboro;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#button2 {
+  border-color: Dodgerblue;
+  background: linear-gradient(SkyBlue, Dodgerblue);
+  border-width: thin;
+  width: 220px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: DimGray;
+  box-shadow: 0px 1px 3px 3px Gainsboro;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#button3 {
+  border-color: Green;
+  background: linear-gradient(YellowGreen, ForestGreen);
+  border-width: thin;
+  width: 220px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: DimGray;
+  box-shadow: 0px 1px 3px 3px Gainsboro;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#button1:hover, #button2:hover, #button3:hover {
+  background: linear-gradient(DeepPink, DarkViolet);
