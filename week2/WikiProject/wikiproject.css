@@ -2,8 +2,11 @@ body {
   width: auto;
   height: 800px;
   margin: 0;
+  /*background-color: #f9f9f9;*/
+  background: linear-gradient(to bottom, white, #f9f9f9 5%);
 }
 main {
+  background-color: white;
   font-family: sans-serif;
   box-sizing: border-box;
   line-height: inherit;
@@ -11,6 +14,8 @@ main {
   flex-grow: 1;
   padding: 1em;
   border-left: 1px solid #a7d7f9;
+  /*border-left-width: 1px;*/
+  /*border-left: linear-gradient(to bottom, white, #a7d7f9 5%);*/
   border-bottom: 1px solid #a7d7f9;
   border-right-width: 0;
   display: block;
@@ -21,104 +26,12 @@ h1 {
   font-family: serif;
   font-weight: lighter;
   padding-bottom: 1px;
-}
-p {
-  font-size: 0.875em;
-  z-index: 0;
-  line-height: 1.6;
-}
-.name {
-  font-weight: bold;
-}
-.infobox{
-  background-color: #f9f9f9;
-  border: 1px solid #aaa;
-  width: 300px;
-  height: 200px;
-  float: right;
-  font-size: 80%;
-  line-height: 1.5em;
-  padding: 0.2em;
-}
-table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: grey;
-  float: right;
-}
-.infobox img{
-  width: 200px;
-  height: 250px;
-  float: inherit;
-  padding: 10px;
-}
-.infobox .namehead{
-  text-align: center;
-}
-.infobox td, .infobox th {
-  vertical-align: top;
-  text-align: left;
-}
-th {
-  font-weight: bold;
-}
-.menu {
-  font-weight: bold;
-  text-align: left;
-}
-
-#leftsidebar {
-  padding-left: 20px;
-  padding-top: 20px;
-  width: 10em;
-  float: left;
-
-}
-#logo {
-  width: 8em;
-  height: 10em;
-}
-.firstlist {
-  font-size: 100%;
-  line-height: 1.125em;
-  list-style: none;
-  text-align: left;
-  padding-left: 0;
-}
-.firstlist:last-child{
-  border-bottom: 1px solid grey;
-  padding-bottom: 10px;
-}
-.inter{
-  padding: 0;
-}
-
-.interaction {
-  font-size: 100%;
-  line-height: 1.125em;
-  list-style: none;
-  text-align: left;
-  padding-left: 10px;
+  margin-bottom: 10px;
 }
 h2{
   font-size: 1em;
-  padding-left: 10px;
-
+  /*padding-left: 10px;*/
 }
-#toc {
-  text-align: left;
-  border: 1px solid #aaa;
-  background-color: #f9f9f9;
-  padding-right: 10px;
-  font-size: 95%;
-  line-height: 1.6em;
-  display: table;
-}
-.toctext {
-  padding-left: 30px;
-}
-
 h3{
   font-size: 1.5em;
   padding-bottom: 1px;
@@ -131,7 +44,154 @@ h4 {
   font-family: sans-serif;
   font-weight: bold;
 }
+p {
+  font-size: 0.875em;
+  z-index: 0;
+  line-height: 1.6;
+  display: block;
+  position: relative;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+  float: right;
+}
+#sidesub {
+  font-size: 85%;
+  padding-top: 0;
+}
+#disamb {
+  font-style: italic;
+  font-size: 85%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.name {
+  font-weight: bold;
+}
+.infobox{
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  width: 22em;
+  height: 200px;
+  float: right;
+  font-size: 80%;
+  line-height: 1.5em;
+  padding: 0.2em;
+  margin-left: 10px;
+}
+.infobox img{
+  width: 220px;
+  height: 277px;
+  float: inherit;
+  /*padding: 10px;*/
+}
+.infobox .namehead{
+  text-align: center;
+  font-size: 120%;
+}
+.namehead2 {
+  font-size: 80%;
+}
+.infobox td, .infobox th {
+  vertical-align: top;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+.menu {
+  font-weight: bold;
+  text-align: left;
+}
+#leftsidebar {
+  padding-left: 25px;
+  padding-top: 20px;
+  width: 10em;
+  float: left;
+  font-family: sans-serif;
+  line-height: 1.6em;
+  font-size: 0.75em;
+}
+#logo {
+  width: 10em;
+  height: 12em;
+}
+.firstlist {
+  font-size: 100%;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+.firstlist:last-child{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.inter, .tool1, .prexp1, .inopro1, .lang1{
+  padding: 0;
+  line-height: 0em;
+}
+.interaction, .tool, .prexp, .inopro, .lang{
+  font-size: 100%;
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+}
+#toc {
+  text-align: left;
+  /*width: 107px;
+  height: 278px;*/
+  border: 1px solid #aaa;
+  background-color: #f9f9f9;
+  padding: 7px;
+  font-size: 85%;
+  line-height: 1.6em;
+  display: table;
+}
+.toctext {
+  padding-left: 20px;
+}
 .quote {
   padding-left: 50px;
   padding-right: 50px;
+}
+.picbox {
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  width: 202px;
+  /*height: 330px;*/
+  float: right;
+  font-size: 80%;
+  display: block;
+  padding: 5px;
+  margin-left: 10px;
+
+}
+.picbox img{
+  width: 200px;
+  /*height: 250px;*/
+  /*padding: 5px;*/
+  border: 1px solid grey;
+}
+.textlist{
+  list-style: disc;
+  font-size: 0.875em;
+  z-index: 0;
+  line-height: 1.6;
+  display: block;
+}
+input[type=search] {
+  width: 150px;
+  background-color: linear-gradient (#f9f9f9, white);
+  font-family: sans-serif;
+  color: #f9f9f9;
+}
+.toclist, .firstlist, .interaction, .tool, .prexp, .inopro, .lang li {
+  color: #0645ad;
+}
+
+.blue{
+  color: #0645ad;
 }
