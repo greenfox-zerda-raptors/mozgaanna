@@ -1,0 +1,35 @@
+.box, .text, .border {
+  width: 130px;
+  height: 130px;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  position: absolute;
+}
+.box {
+  background-color: white;
+  border-radius: 5px;
+  transform: rotateZ(45deg);
+}
+.text{
+  color: grey;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 52px;
+}
+.border {
+  box-sizing: border-box;
+  border: 3px solid #EF5350;
+  border-radius: 5px;
+  transition: 0.5s linear;
+}
+.border:hover {
+  transform: rotateZ(45deg);
+}
+body {
+  width: 400px;
+  height: 400px;
+  background-color: #696969;
+  position: relative;
+}
