@@ -7,6 +7,6 @@ public class Workshop01 {
 
         // make it bigger by 10
 
-        System.out.println(a+10);
+        System.out.println(a + 10);
     }
 }
