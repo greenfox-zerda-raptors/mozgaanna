@@ -2,92 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9570aae4-6f51-45af-b891-242ebe472224" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/FirstProject.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/NextExercise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop02.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop04.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop05.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop06.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop07.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop08.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop09.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/out/production/FirstProject/Workshop37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/NextExercise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop03.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop04.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop05.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop06.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop07.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop08.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop09.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop10.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop11.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop12.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop13.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop14.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop15.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop16.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop17.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop18.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop19.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop20.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop21.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop22.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop23.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop24.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop25.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop26.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop27.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop28.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop29.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop30.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop31.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop32.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop33.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop34.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop35.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop36.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day1/FirstProject/src/Workshop37.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../week1/project week 1/cv.project.html" afterPath="$PROJECT_DIR$/../week1/project week 1/cv.project.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../week2/WikiProject/wikiproject.css" afterPath="$PROJECT_DIR$/../week2/WikiProject/wikiproject.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../week2/WikiProject/wikiproject.html" afterPath="$PROJECT_DIR$/../week2/WikiProject/wikiproject.html" />
@@ -258,6 +172,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -731,7 +655,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
