@@ -12,12 +12,8 @@ public class Workshop04{
         arrayList.add(false);
         // Accidentally we added "2" and "false" to the list. Your task is to change from "2" to "second" and change from "false" to "fourth"
 
-
-        arrayList.remove(1);
-        arrayList.remove(2);
-        arrayList.add(1, "second");
-        arrayList.add(3, "fourth");
-
+        arrayList.set(1, "second");
+        arrayList.set(3, "fourth");
 
         System.out.println(arrayList);
     }
