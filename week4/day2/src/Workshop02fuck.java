@@ -42,7 +42,7 @@ public class Workshop02fuck {
                     System.out.print("=" + numbers[i] + "\n");
                 }
             } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.printf("no such index!\n");
+                System.out.printf(" no such index!\n");
 
             }
         }

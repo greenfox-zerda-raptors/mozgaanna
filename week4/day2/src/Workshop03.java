@@ -28,7 +28,7 @@ public class Workshop03{
         }
     }
     public static Integer checkIfValid() {
-        int i =0;
+        int i = 0;
         boolean flLoop = true;
         while (flLoop) {
             System.out.print("Type in a number: ");
@@ -36,7 +36,7 @@ public class Workshop03{
               i = userInput.nextInt();
               flLoop = false;
           } catch (Exception e) {
-              System.out.println(e.getMessage() + "Too high!!!");
+              System.out.println(e.getMessage() + " is too high!!!");
             }
 
             userInput.nextLine();
