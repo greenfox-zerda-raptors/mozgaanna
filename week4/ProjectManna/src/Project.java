@@ -26,26 +26,26 @@ public class Project{
             if (rounds <= 2 ) {
                 System.out.println("Guess");
             } else if (rounds >= 5 ) {
-                System.out.println("Come oooon, guess again!");
+                System.out.println("Come oooon, guess again, moron!");
             } else {
-                System.out.println("Guess again asshole!");
+                System.out.println("Guess again!");
             }
             
             guess = userInput.nextInt();
 
 
             if (guess > number) {
-                System.out.println("You're so high, moron!");
+                System.out.println("You're high, pothead!");
             } else if (guess < number) {
-                System.out.println("You're low, dumbass!");
+                System.out.println("You're low!");
             } else {
                 System.out.println("Yes, you got it! Finally -.-'' " );
             }
         } while (guess != number && rounds < 6);
-        if (rounds > 6) {
-            System.out.println("You bloody loser!");
+        if (rounds >= 6) {
+            System.out.println("Oh, you bloody loser!");
         }
-        System.out.println("It was " + number + "! Game over Bitch! Bye");
+        System.out.println("It was " + number + "! Game over! ");
     }
 
 }
