@@ -16,7 +16,7 @@ public class Project{
         System.out.println();
         int number = randomGenerator.nextInt(100) + 1;
 
-        System.out.println("Okay, I've got a number.  You should be able to figure that out in 6 goes, let's begin.  \n");
+        System.out.println("Hello World. Do you wanna play a game? I've got a number. You have 6 guesses. Let the game begin.  \n");
 
         int rounds = 0;
 
@@ -25,17 +25,17 @@ public class Project{
             rounds++;
             if (rounds <= 2 ) {
                 System.out.println("Guess");
-            } else if (rounds >= 3 || rounds <= 4) {
-                System.out.println("Guess again dickhead!");
+            } else if (rounds >= 5 ) {
+                System.out.println("Come oooon, guess again!");
             } else {
-                System.out.println("Come oooon, guess again dickhead!");
+                System.out.println("Guess again asshole!");
             }
             
             guess = userInput.nextInt();
 
 
             if (guess > number) {
-                System.out.println("You're so high, you Retard!!!!");
+                System.out.println("You're so high, moron!");
             } else if (guess < number) {
                 System.out.println("You're low, dumbass!");
             } else {
@@ -43,9 +43,9 @@ public class Project{
             }
         } while (guess != number && rounds < 6);
         if (rounds > 6) {
-            System.out.println("You fucking loser!");
+            System.out.println("You bloody loser!");
         }
-        System.out.println("It was " + number + "! Bye Bitch!");
+        System.out.println("It was " + number + "! Game over Bitch! Bye");
     }
 
 }
