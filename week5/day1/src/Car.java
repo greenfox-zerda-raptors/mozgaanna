@@ -21,6 +21,12 @@ public class Car {
         this.kmOdometer += kilometer;
     }
 
+    public String toString(){
+        return String.format("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
+                name, color, sizeEngine, kmOdometer);
+
+    }
+
 
     public void setName (String name){
         this.name = name;

@@ -35,20 +35,28 @@ public class Workshop01 {
 
 
 //Exercise 4
+//        myCar.drive(15);
+//        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
+//                 myCar.getName(), myCar.getColor(), myCar.getSizeEngine(), myCar.getKmOdometer()
+//        );
+//
+//        myCar1.drive(60);
+//        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
+//                myCar1.getName(), myCar1.getColor(), myCar1.getSizeEngine(), myCar1.getKmOdometer()
+//        );
+//
+//        myCar2.drive(49);
+//        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
+//                myCar2.getName(), myCar2.getColor(), myCar2.getSizeEngine(), myCar2.getKmOdometer()
+//        );
+
+
+//Exercise 5
         myCar.drive(15);
-        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
-                 myCar.getName(), myCar.getColor(), myCar.getSizeEngine(), myCar.getKmOdometer()
-        );
-
+        System.out.println(myCar.toString());
         myCar1.drive(60);
-        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
-                myCar1.getName(), myCar1.getColor(), myCar1.getSizeEngine(), myCar1.getKmOdometer()
-        );
-
+        System.out.println(myCar1.toString());
         myCar2.drive(49);
-        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
-                myCar2.getName(), myCar2.getColor(), myCar2.getSizeEngine(), myCar2.getKmOdometer()
-        );
-
+        System.out.println(myCar2.toString());
     }
 }
