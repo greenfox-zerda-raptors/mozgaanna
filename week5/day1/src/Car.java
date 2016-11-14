@@ -10,8 +10,15 @@ public class Car {
     private int sizeEngine;
     private int kmOdometer;
 
-    void drive(){
-        
+    void drive(int kilometer){
+        if (kilometer < 20) {
+            System.out.println("brrm, " + name + " just drove around town " + kilometer + " clicks.");
+        } else if (kilometer > 20 && kilometer < 50) {
+                System.out.println("brrm, screech, brrm, screech; " + name + " commuted " + kilometer + " clicks.");
+        } else {
+            System.out.println("whee, " + name + kilometer + " clicks.");
+        }
+        this.kmOdometer += kilometer;
     }
 
 

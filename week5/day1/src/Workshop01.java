@@ -22,15 +22,33 @@ public class Workshop01 {
         myCar2.setSizeEngine(2800);
         myCar2.setKmOdometer(42521);
 
+// Exercise 3
+//        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+//                 myCar.getName(), myCar.getColor(), myCar.getSizeEngine(), myCar.getKmOdometer()
+//             );
+//        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+//                myCar1.getName(), myCar1.getColor(), myCar1.getSizeEngine(), myCar1.getKmOdometer()
+//        );
+//        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+//                myCar2.getName(), myCar2.getColor(), myCar2.getSizeEngine(), myCar2.getKmOdometer()
+//        );
 
-        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+
+//Exercise 4
+        myCar.drive(15);
+        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
                  myCar.getName(), myCar.getColor(), myCar.getSizeEngine(), myCar.getKmOdometer()
-             );
-        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+        );
+
+        myCar1.drive(60);
+        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
                 myCar1.getName(), myCar1.getColor(), myCar1.getSizeEngine(), myCar1.getKmOdometer()
         );
-        System.out.printf("Just got a new %s, it's %s and has a %d cc Engine and clocked %d km's!\n",
+
+        myCar2.drive(49);
+        System.out.printf("This %s is %s, has a %d cc Engine and clocked %d km's!\n",
                 myCar2.getName(), myCar2.getColor(), myCar2.getSizeEngine(), myCar2.getKmOdometer()
         );
+
     }
 }
