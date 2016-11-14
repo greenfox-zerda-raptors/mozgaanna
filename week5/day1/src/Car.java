@@ -66,9 +66,32 @@ public class Car {
         this.sizeEngine = 1600;
         this.kmOdometer = 12312;
 
+    }
 
+    public Car (String name, String color, int sizeEngine, int kmOdometer){
+        this.name = name;
+        this.color = color;
+        this.sizeEngine = sizeEngine;
+        this.kmOdometer = kmOdometer;
+
+        }
+
+    public Car (String name, String color) {
+        this.name = name;
+        this.color = color;
+        this.sizeEngine = 1600;
+        this.kmOdometer = 10;
+    }
+
+    public Car (int sizeEngine, int kmOdometer){
+        this.name = "Mazda";
+        this.color = "red";
+        this.sizeEngine = sizeEngine;
+        this.kmOdometer = kmOdometer;
+
+    }
 
         //Add somethings here to create a car and some fields
-    }
+
 
 }

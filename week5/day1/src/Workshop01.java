@@ -1,6 +1,8 @@
 /**
  * Created by mozgaanna on 14/11/16.
  */
+
+
 public class Workshop01 {
     public static void main(String[] args) {
 
@@ -52,11 +54,29 @@ public class Workshop01 {
 
 
 //Exercise 5
-        myCar.drive(15);
-        System.out.println(myCar.toString());
-        myCar1.drive(60);
-        System.out.println(myCar1.toString());
-        myCar2.drive(49);
-        System.out.println(myCar2.toString());
+//        myCar.drive(15);
+//        System.out.println(myCar.toString());
+//        myCar1.drive(60);
+//        System.out.println(myCar1.toString());
+//        myCar2.drive(49);
+//        System.out.println(myCar2.toString());
+
+
+//Exercise 6
+
+        Car myCar4 = new Car("Opel", "white", 1400, 25);
+        System.out.println(myCar4.toString());
+
+        Car myCar5 = new Car("VW", "grey");
+        System.out.println(myCar5.toString());
+
+        Car myCar6 = new Car (1100, 15);
+        System.out.println(myCar6.toString());
+
+
+
+
+
+
     }
 }
