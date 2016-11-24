@@ -7,7 +7,8 @@ import java.awt.event.*;
  */
 public class EventCounter extends JFrame {
     JLabel labelMouse;
-    JLabel labelKey;
+    JLabel labelKeyPressed;
+    JLabel labelKeyReleased;
     JLabel labelWindow;
 
     int mouseClick;
@@ -32,7 +33,7 @@ public class EventCounter extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Event Counter");
         this.setVisible(true);
-        this.setSize(400, 400);
+        this.setSize(500, 400);
 
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension dim = tk.getScreenSize();
@@ -43,16 +44,26 @@ public class EventCounter extends JFrame {
 
         JPanel myPanel = new JPanel();
         this.add(myPanel);
+        myPanel.setLayout(new BoxLayout(myPanel, BoxLayout.PAGE_AXIS));
+        myPanel.setBackground(Color.pink);
 
         JTextField myTextField = new JTextField("Write something");
-        myTextField.setSize(20, 20);
-        this.add(myTextField);
+        myTextField.setBorder(BorderFactory.createMatteBorder(3, 3, 3, 3, Color.black));
+        myTextField.setBackground(Color.lightGray);
+
+        myTextField.setPreferredSize(new Dimension(400, 30));
+        myTextField.setMaximumSize(new Dimension(400, 30));
+
+        myPanel.add(myTextField);
 
         labelMouse = new JLabel();
         myPanel.add(labelMouse);
 
-        labelKey = new JLabel();
-        myPanel.add(labelKey);
+        labelKeyPressed = new JLabel();
+        myPanel.add(labelKeyPressed);
+
+        labelKeyReleased = new JLabel();
+        myPanel.add(labelKeyReleased);
 
         labelWindow = new JLabel();
         myPanel.add(labelWindow);
@@ -76,18 +87,28 @@ public class EventCounter extends JFrame {
 
         @Override
         public void keyTyped(KeyEvent e) {
-            keyPress++;
-            labelKey.setText(keyPress + "key pressed");
+
         }
 
         @Override
         public void keyPressed(KeyEvent e) {
+            keyPress++;
+            if (keyPress <= 1){
+                labelKeyPressed.setText(keyPress + " key pressed\n");
+            } else {
+                labelKeyPressed.setText(keyPress + " keys pressed\n");
+            }
 
         }
 
         @Override
         public void keyReleased(KeyEvent e) {
-
+            keyPress++;
+            if (keyPress <= 1){
+                labelKeyReleased.setText(keyPress + " key released\n");
+            } else {
+                labelKeyReleased.setText(keyPress + " keys released\n");
+            }
         }
     }
 
@@ -96,6 +117,8 @@ public class EventCounter extends JFrame {
 
         @Override
         public void mouseClicked(MouseEvent e) {
+            labelMouse.setText("Mouse panel position: " + e.getX() + "" + e.getY() + "\n"
+                    +"\n" + "Mouse on screen position: " + e.getXOnScreen() + "" + e.getYOnScreen());
 
         }
 
@@ -125,7 +148,7 @@ public class EventCounter extends JFrame {
 
         @Override
         public void windowOpened(WindowEvent e) {
-
+            labelWindow.setText("Window is opened\n");
         }
 
         @Override
