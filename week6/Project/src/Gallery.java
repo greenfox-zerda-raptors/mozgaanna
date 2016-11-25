@@ -2,8 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -27,8 +25,8 @@ public class Gallery extends JFrame {
     JPanel upPanel;
     JPanel downPanel;
 
-
     JLabel upperImageLabel;
+    JLabel label1;
     JLabel label2;
     JLabel label3;
     JLabel label4;
@@ -48,7 +46,7 @@ public class Gallery extends JFrame {
     ArrayList<JLabel> myLabels = new ArrayList<JLabel>();
     int index;
 
-
+    
     public Gallery() {
         setLayout(new FlowLayout());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -58,29 +56,22 @@ public class Gallery extends JFrame {
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension dim = tk.getScreenSize();
 
-
 //UPPANEL
 
         upPanel = new JPanel();
         this.add(upPanel);
         upPanel.setLayout(new BoxLayout(upPanel, BoxLayout.X_AXIS));
 
-
         JButton upLeftButton = new JButton("<");
         upLeftButton.setBorderPainted(false);
         ListenForLeftButton forLeftButton = new ListenForLeftButton();
         upLeftButton.addActionListener(forLeftButton);
-
         upLeftButton.setFont(new Font("Serif", Font.BOLD, 42));
         upPanel.add(upLeftButton);
 
-
-        image1 = new ImageIcon("fox1.jpg");
-        upperImageLabel = new JLabel(image1);
-
-
-        upperImageLabel.setPreferredSize(new Dimension(300, 300));
-        upperImageLabel.setMaximumSize(new Dimension(400, 300));
+        upperImageLabel = new JLabel();
+        upperImageLabel.setPreferredSize(new Dimension(780, 380));
+        upperImageLabel.setMaximumSize(new Dimension(780, 380));
         upPanel.add(upperImageLabel);
 
         JButton upRightButton = new JButton(">");
@@ -90,34 +81,20 @@ public class Gallery extends JFrame {
         upRightButton.setFont(new Font("Serif", Font.BOLD, 42));
         upPanel.add(upRightButton);
 
-
 //DOWNPANEL
 
         downPanel = new JPanel();
         this.add(downPanel);
         downPanel.setLayout(new BoxLayout(downPanel, BoxLayout.X_AXIS));
 
-
-        image2 = new ImageIcon("fox2.jpg");
-        label2 = new JLabel(image2);
-        downPanel.add(label2);
-
-        image3 = new ImageIcon("fox3.jpg");
-        label3 = new JLabel(image3);
-        downPanel.add(label3);
-
-        image4 = new ImageIcon("fox4.jpg");
-        label4 = new JLabel(image4);
-        downPanel.add(label4);
-
-        image5 = new ImageIcon("fox5.jpg");
-        label5 = new JLabel(image5);
-        downPanel.add(label5);
-
-        image6 = new ImageIcon("fox6.jpg");
-        label6 = new JLabel(image6);
-        downPanel.add(label6);
-
+        myLabels = new ArrayList<>();
+        for (int i = 1; i <= 6; i++){
+            image1 = new ImageIcon("image" + i + ".jpg");
+            label1 = new JLabel(image1);
+            label1.setPreferredSize(new Dimension(100, 100));
+            downPanel.add(label1);
+            myLabels.add(label1);
+        }
 
 //MAINPANEL
 
@@ -133,7 +110,6 @@ public class Gallery extends JFrame {
         int yPosition = (dim.height / 2) - (this.getHeight() / 2);
         this.setLocation(xPosition, yPosition);
 
-        myLabels = new ArrayList(Arrays.asList(upperImageLabel, label2, label3, label4, label5, label6));
 
     }
 
