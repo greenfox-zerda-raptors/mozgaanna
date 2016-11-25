@@ -44,8 +44,6 @@ public class Gallery extends JFrame {
 
     JButton upLeftButton;
     JButton upRightButton;
-    JButton downLeftButton;
-    JButton downRightButton;
 
     ArrayList<JLabel> myLabels = new ArrayList<JLabel>();
     int index;
@@ -57,7 +55,6 @@ public class Gallery extends JFrame {
         this.setTitle("Manna Gallery");
         this.setVisible(true);
 
-
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension dim = tk.getScreenSize();
 
@@ -68,24 +65,29 @@ public class Gallery extends JFrame {
         this.add(upPanel);
         upPanel.setLayout(new BoxLayout(upPanel, BoxLayout.X_AXIS));
 
+
         JButton upLeftButton = new JButton("<");
         upLeftButton.setBorderPainted(false);
         ListenForLeftButton forLeftButton = new ListenForLeftButton();
         upLeftButton.addActionListener(forLeftButton);
 
-        //upLeftButton.setFont();
+        upLeftButton.setFont(new Font("Serif", Font.BOLD, 42));
         upPanel.add(upLeftButton);
 
 
         image1 = new ImageIcon("fox1.jpg");
         upperImageLabel = new JLabel(image1);
 
-        upperImageLabel.setSize(100, 100);
+
+        upperImageLabel.setPreferredSize(new Dimension(300, 300));
+        upperImageLabel.setMaximumSize(new Dimension(400, 300));
         upPanel.add(upperImageLabel);
 
         JButton upRightButton = new JButton(">");
+        upRightButton.setBorderPainted(false);
         ListenForRightButton forRightButton = new ListenForRightButton();
         upRightButton.addActionListener(forRightButton);
+        upRightButton.setFont(new Font("Serif", Font.BOLD, 42));
         upPanel.add(upRightButton);
 
 
@@ -95,9 +97,6 @@ public class Gallery extends JFrame {
         this.add(downPanel);
         downPanel.setLayout(new BoxLayout(downPanel, BoxLayout.X_AXIS));
 
-        JButton downLeftButton = new JButton("<");
-
-        downPanel.add(downLeftButton);
 
         image2 = new ImageIcon("fox2.jpg");
         label2 = new JLabel(image2);
@@ -119,8 +118,6 @@ public class Gallery extends JFrame {
         label6 = new JLabel(image6);
         downPanel.add(label6);
 
-        JButton downRightButton = new JButton(">");
-        downPanel.add(downRightButton);
 
 //MAINPANEL
 
