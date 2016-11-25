@@ -11,7 +11,7 @@ import java.util.Iterator;
 /**
  * Created by mozgaanna on 25/11/16.
  */
-public class Gallery extends JFrame implements MouseListener, ActionListener {
+public class Gallery extends JFrame {
 
     public static void main(String[] args) {
 
@@ -70,7 +70,8 @@ public class Gallery extends JFrame implements MouseListener, ActionListener {
 
         JButton upLeftButton = new JButton("<");
         upLeftButton.setBorderPainted(false);
-        //upLeftButton.addActionListener(this);
+        ListenForLeftButton forLeftButton = new ListenForLeftButton();
+        upLeftButton.addActionListener(forLeftButton);
 
         //upLeftButton.setFont();
         upPanel.add(upLeftButton);
@@ -83,8 +84,8 @@ public class Gallery extends JFrame implements MouseListener, ActionListener {
         upPanel.add(upperImageLabel);
 
         JButton upRightButton = new JButton(">");
-        upRightButton.addActionListener(this);
-
+        ListenForRightButton forRightButton = new ListenForRightButton();
+        upRightButton.addActionListener(forRightButton);
         upPanel.add(upRightButton);
 
 
@@ -139,13 +140,30 @@ public class Gallery extends JFrame implements MouseListener, ActionListener {
 
     }
 
+    private class ListenForLeftButton implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            index--;
+            if(index < 0) {
+                index = myLabels.size() -1;}
+            upperImageLabel.setIcon(myLabels.get(index).getIcon());
+        }
+    }
 
-    //EZ KELL A BUTTONOKHOZZZZ
-    index++;
-        if(index ==myLabels.size())
+    private class ListenForRightButton implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            index++;
+            if(index == myLabels.size()) {
+                index = 0;}
+            upperImageLabel.setIcon(myLabels.get(index).getIcon());
+        }
 
-    {
-        index = 0;}
-        upperImageLabel.setIcon(myLabels.get(index).getIcon());
+    }
+
+}
+
+
+
 
 
