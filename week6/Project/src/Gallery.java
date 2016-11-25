@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -46,7 +47,7 @@ public class Gallery extends JFrame {
     ArrayList<JLabel> myLabels = new ArrayList<JLabel>();
     int index;
 
-    
+
     public Gallery() {
         setLayout(new FlowLayout());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -62,23 +63,25 @@ public class Gallery extends JFrame {
         this.add(upPanel);
         upPanel.setLayout(new BoxLayout(upPanel, BoxLayout.X_AXIS));
 
+
         JButton upLeftButton = new JButton("<");
         upLeftButton.setBorderPainted(false);
         ListenForLeftButton forLeftButton = new ListenForLeftButton();
         upLeftButton.addActionListener(forLeftButton);
-        upLeftButton.setFont(new Font("Serif", Font.BOLD, 42));
+        upLeftButton.setFont(new Font("Serif", Font.BOLD, 52));
         upPanel.add(upLeftButton);
 
-        upperImageLabel = new JLabel();
+        upperImageLabel = new JLabel(image1);
         upperImageLabel.setPreferredSize(new Dimension(780, 380));
         upperImageLabel.setMaximumSize(new Dimension(780, 380));
+        upperImageLabel.setBorder(BorderFactory.createMatteBorder(3, 3, 3, 3, Color.darkGray));
         upPanel.add(upperImageLabel);
 
         JButton upRightButton = new JButton(">");
         upRightButton.setBorderPainted(false);
         ListenForRightButton forRightButton = new ListenForRightButton();
         upRightButton.addActionListener(forRightButton);
-        upRightButton.setFont(new Font("Serif", Font.BOLD, 42));
+        upRightButton.setFont(new Font("Serif", Font.BOLD, 52));
         upPanel.add(upRightButton);
 
 //DOWNPANEL
