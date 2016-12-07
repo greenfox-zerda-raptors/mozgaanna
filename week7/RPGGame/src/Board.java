@@ -9,22 +9,24 @@ import java.util.ArrayList;
 public class Board extends JComponent {
     ArrayList<GameObject> gameObjects;
 
-    int[][] board = new int[][]{
-            {1, 1, 1, 0, 1, 0, 1, 1, 1, 1},
-            {1, 1, 1, 0, 1, 0, 1, 0, 0, 1},
-            {1, 0, 0, 0, 1, 0, 1, 0, 0, 1},
-            {1, 1, 1, 1, 1, 0, 1, 1, 1, 1},
-            {0, 0, 0, 0, 1, 0, 0, 0, 1, 0},
-            {1, 0, 1, 0, 1, 1, 1, 1, 0, 1},
-            {1, 0, 1, 0, 1, 0, 0, 1, 0, 1},
-            {1, 1, 1, 1, 1, 0, 0, 1, 0, 1},
-            {1, 0, 0, 0, 1, 1, 1, 1, 0, 1},
-            {1, 1, 1, 0, 1, 0, 0, 1, 0, 1},
-            {1, 0, 1, 0, 1, 0, 1, 1, 1, 1}
-    };
+
 
 
     public Board() {
+        int[][] board = new int[][]{
+                {1, 1, 1, 0, 1, 0, 1, 1, 1, 1},
+                {1, 1, 1, 0, 1, 0, 1, 0, 0, 1},
+                {1, 0, 0, 0, 1, 0, 1, 0, 0, 1},
+                {1, 1, 1, 1, 1, 0, 1, 1, 1, 1},
+                {0, 0, 0, 0, 1, 0, 0, 1, 1, 0},
+                {1, 0, 1, 0, 1, 1, 1, 1, 0, 1},
+                {1, 0, 1, 0, 1, 0, 0, 1, 0, 1},
+                {1, 1, 1, 1, 1, 0, 0, 1, 0, 1},
+                {1, 0, 0, 0, 1, 1, 1, 1, 1, 1},
+                {1, 1, 1, 0, 1, 0, 0, 1, 0, 1},
+                {1, 0, 1, 0, 1, 0, 1, 1, 1, 1}
+        };
+
         gameObjects = new ArrayList<>();
 
         for (int i = 0; i < board.length; i++) {
@@ -45,6 +47,21 @@ public class Board extends JComponent {
         for (GameObject gameObject : gameObjects) {
             gameObject.draw(graphics);
         }
+
+
+        Hero hero = new Hero();
+        hero.draw(graphics);
+        graphics.drawString(hero.toString(), 20, 540);
+
+
+        Skeleton skeleton1 = new Skeleton();
+        skeleton1.draw(graphics);
+        graphics.drawString(skeleton1.toString(), 20, 570);
+
+        Boss boss = new Boss();
+        boss.draw(graphics);
+        graphics.drawString(boss.toString(), 20, 600);
+
     }
 
 }

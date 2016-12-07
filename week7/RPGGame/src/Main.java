@@ -18,10 +18,13 @@ public class Main extends JFrame {
     Main(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Manna RPG");
-        this.setPreferredSize(new Dimension(720, 720));
+        this.setPreferredSize(new Dimension(520, 720));
         this.setVisible(true);
 
+//
+
         Toolkit tk = Toolkit.getDefaultToolkit();
+
         Dimension dim = tk.getScreenSize();
 
 
