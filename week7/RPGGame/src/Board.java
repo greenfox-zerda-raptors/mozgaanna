@@ -76,10 +76,6 @@ public class Board extends JComponent implements KeyListener {
         }
 
 
-        hero.draw(graphics);
-        graphics.drawString(hero.toString(), 20, 540);
-
-
         skeleton1.draw(graphics);
         graphics.drawString(skeleton1.toString(), 20, 570);
 
@@ -90,6 +86,8 @@ public class Board extends JComponent implements KeyListener {
         boss.draw(graphics);
         graphics.drawString(boss.toString(), 20, 630);
 
+        hero.draw(graphics);
+        graphics.drawString(hero.toString(), 20, 540);
     }
 
 
