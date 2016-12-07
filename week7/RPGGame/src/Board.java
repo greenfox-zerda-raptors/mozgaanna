@@ -1,7 +1,11 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -12,12 +16,29 @@ public class Board extends JComponent implements KeyListener {
     ArrayList<GameObject> gameObjects;
 
     Hero hero = new Hero();
-    Skeleton skeleton1 = new Skeleton();
+    Skeleton skeleton1 = new Skeleton(7, 2);
+    Skeleton skeleton2 = new Skeleton(2, 4);
     Boss boss = new Boss();
     int[][] board;
 
+    BufferedImage upImage;
+    BufferedImage downImage;
+    BufferedImage leftImage;
+    BufferedImage rightImage;
+
 
     public Board() {
+        try {
+            upImage = ImageIO.read(new File("hero-up.png"));
+            downImage = ImageIO.read(new File("hero-down.png"));
+            rightImage = ImageIO.read(new File("hero-right.png"));
+            leftImage = ImageIO.read(new File("hero-left.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+
         board = new int[][]{
                 {1, 1, 1, 0, 1, 0, 1, 1, 1, 1},
                 {1, 1, 1, 0, 1, 0, 1, 0, 0, 1},
@@ -27,7 +48,7 @@ public class Board extends JComponent implements KeyListener {
                 {1, 0, 1, 0, 1, 1, 1, 1, 0, 1},
                 {1, 0, 1, 0, 1, 0, 0, 1, 0, 1},
                 {1, 1, 1, 1, 1, 0, 0, 1, 0, 1},
-                {1, 0, 0, 0, 1, 1, 1, 1, 1, 1},
+                {1, 0, 0, 0, 1, 1, 1, 1, 0, 1},
                 {1, 1, 1, 0, 1, 0, 0, 1, 0, 1},
                 {1, 0, 1, 0, 1, 0, 1, 1, 1, 1}
         };
@@ -62,9 +83,12 @@ public class Board extends JComponent implements KeyListener {
         skeleton1.draw(graphics);
         graphics.drawString(skeleton1.toString(), 20, 570);
 
+        skeleton2.draw(graphics);
+        graphics.drawString(skeleton2.toString(), 20, 600);
+
 
         boss.draw(graphics);
-        graphics.drawString(boss.toString(), 20, 600);
+        graphics.drawString(boss.toString(), 20, 630);
 
     }
 
@@ -75,20 +99,25 @@ public class Board extends JComponent implements KeyListener {
 
     }
 
+
     @Override
     public void keyPressed(KeyEvent e) {
         int keyCode = e.getKeyCode();
         switch (keyCode) {
             case KeyEvent.VK_UP:
+                hero.setImage(upImage);
                 hero.move(0, -1, board);
                 break;
             case KeyEvent.VK_DOWN:
+                hero.setImage(downImage);
                 hero.move(0, 1, board);
                 break;
             case KeyEvent.VK_LEFT:
+                hero.setImage(leftImage);
                 hero.move(-1, 0, board);
                 break;
             case KeyEvent.VK_RIGHT:
+                hero.setImage(rightImage);
                 hero.move(1, 0, board);
                 break;
         }

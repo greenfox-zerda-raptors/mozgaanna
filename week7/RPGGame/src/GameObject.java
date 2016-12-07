@@ -17,14 +17,23 @@ public class GameObject {
         this.posY = posY;
         try {
             image = ImageIO.read(new File(filename));
+
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
 
+
+    public void setImage(BufferedImage filename){
+         this.image = filename;
+
+    }
+
+
     public void draw(Graphics graphics) {
         if (image != null) {
+
             graphics.drawImage(image, posX *52, posY*52, 52, 52, null);
         }
     }
