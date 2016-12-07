@@ -14,10 +14,11 @@ public class Board extends JComponent implements KeyListener {
     Hero hero = new Hero();
     Skeleton skeleton1 = new Skeleton();
     Boss boss = new Boss();
+    int[][] board;
 
 
     public Board() {
-        int[][] board = new int[][]{
+        board = new int[][]{
                 {1, 1, 1, 0, 1, 0, 1, 1, 1, 1},
                 {1, 1, 1, 0, 1, 0, 1, 0, 0, 1},
                 {1, 0, 0, 0, 1, 0, 1, 0, 0, 1},
@@ -79,16 +80,16 @@ public class Board extends JComponent implements KeyListener {
         int keyCode = e.getKeyCode();
         switch (keyCode) {
             case KeyEvent.VK_UP:
-                hero.move(0, -1);
+                hero.move(0, -1, board);
                 break;
             case KeyEvent.VK_DOWN:
-                hero.move(0, 1);
+                hero.move(0, 1, board);
                 break;
             case KeyEvent.VK_LEFT:
-                hero.move(-1, 0);
+                hero.move(-1, 0, board);
                 break;
             case KeyEvent.VK_RIGHT:
-                hero.move(1, 0);
+                hero.move(1, 0, board);
                 break;
         }
 
