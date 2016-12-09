@@ -1,14 +1,14 @@
 /**
  * Created by mozgaanna on 07/12/16.
  */
-public class Hero extends Character {
+public class Hero extends People {
 
     public Hero() {
         super("hero-down.png", 0, 0);
         this.name = "Anna";
-        this.setDP(2);
-        this.setHP(20);
-        this.setSP(5);
+        this.setHP(20 + 3 * randHP.nextInt(6)+1);
+        this.setDP(2 * randDP.nextInt(6)+1);
+        this.setSP(5 + randSP.nextInt(6)+1);
     }
 
     public void move(int moveX, int moveY, int[][] board){

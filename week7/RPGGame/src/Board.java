@@ -7,6 +7,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 /**
@@ -14,6 +15,7 @@ import java.util.ArrayList;
  */
 public class Board extends JComponent implements KeyListener {
     ArrayList<GameObject> gameObjects;
+    ArrayList<People> attackers;
 
     Hero hero = new Hero();
     Skeleton skeleton1 = new Skeleton(7, 2);
@@ -25,6 +27,9 @@ public class Board extends JComponent implements KeyListener {
     BufferedImage downImage;
     BufferedImage leftImage;
     BufferedImage rightImage;
+
+
+
 
 
     public Board() {
@@ -64,27 +69,36 @@ public class Board extends JComponent implements KeyListener {
                 }
             }
         }
+
+        attackers = new ArrayList<>(Arrays.asList(boss, skeleton1, skeleton2));
     }
 
 
     @Override
     public void paint(Graphics graphics) {
-        // here you have a 720x720 canvas
-        // you can create and draw an image using the class below e.g.
         for (GameObject gameObject : gameObjects) {
             gameObject.draw(graphics);
         }
 
 
-        skeleton1.draw(graphics);
-        graphics.drawString(skeleton1.toString(), 20, 570);
 
-        skeleton2.draw(graphics);
-        graphics.drawString(skeleton2.toString(), 20, 600);
+        if (skeleton1.isAlive) {
+            skeleton1.draw(graphics);
+            graphics.drawString(skeleton1.toString(), 20, 570);
+        }
 
 
-        boss.draw(graphics);
-        graphics.drawString(boss.toString(), 20, 630);
+        if (skeleton2.isAlive){
+            skeleton2.draw(graphics);
+            graphics.drawString(skeleton2.toString(), 20, 600);
+        }
+
+
+        if (boss.isAlive){
+            boss.draw(graphics);
+            graphics.drawString(boss.toString(), 20, 630);
+        }
+
 
         hero.draw(graphics);
         graphics.drawString(hero.toString(), 20, 540);
@@ -118,6 +132,13 @@ public class Board extends JComponent implements KeyListener {
                 hero.setImage(rightImage);
                 hero.move(1, 0, board);
                 break;
+            case KeyEvent.VK_SPACE:
+                for (People monster : attackers) {
+                    if (hero.posX == monster.posX && hero.posY == monster.posY && monster.isAlive) {
+                        hero.attack(monster);
+                        monster.attack(hero);
+                    }
+                }
         }
 
         repaint();
