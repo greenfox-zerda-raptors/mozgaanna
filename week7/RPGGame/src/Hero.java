@@ -9,6 +9,14 @@ public class Hero extends People {
         this.setHP(20 + 3 * randHP.nextInt(6)+1);
         this.setDP(2 * randDP.nextInt(6)+1);
         this.setSP(5 + randSP.nextInt(6)+1);
+
+
+
+    }
+
+
+    public void incrementAppleHP(){
+        this.setHP(getHP() + 5);
     }
 
     public void move(int moveX, int moveY, int[][] board){

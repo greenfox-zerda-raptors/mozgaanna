@@ -21,6 +21,7 @@ public class Board extends JComponent implements KeyListener {
     Skeleton skeleton1 = new Skeleton(7, 2);
     Skeleton skeleton2 = new Skeleton(2, 4);
     Boss boss = new Boss();
+    Apple apple = new Apple(10, 0);
     int[][] board;
 
     BufferedImage upImage;
@@ -79,29 +80,33 @@ public class Board extends JComponent implements KeyListener {
         for (GameObject gameObject : gameObjects) {
             gameObject.draw(graphics);
         }
-
+        apple.draw(graphics);
 
 
         if (skeleton1.isAlive) {
             skeleton1.draw(graphics);
-            graphics.drawString(skeleton1.toString(), 20, 570);
         }
+        graphics.drawString(skeleton1.toString(), 20, 570);
 
 
         if (skeleton2.isAlive){
             skeleton2.draw(graphics);
-            graphics.drawString(skeleton2.toString(), 20, 600);
         }
-
+        graphics.drawString(skeleton2.toString(), 20, 600);
 
         if (boss.isAlive){
             boss.draw(graphics);
-            graphics.drawString(boss.toString(), 20, 630);
         }
+        graphics.drawString(boss.toString(), 20, 630);
 
 
         hero.draw(graphics);
         graphics.drawString(hero.toString(), 20, 540);
+
+        if (hero.posX == apple.posX && hero.posY == apple.posY){
+            hero.incrementAppleHP();
+        }
+
     }
 
 
