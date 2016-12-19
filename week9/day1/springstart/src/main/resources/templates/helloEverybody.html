@@ -5,8 +5,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
-<p th:text="'Hello, ' + ${name} + '! (this is a webpage)' + ${counter} "/>
 
-<p th:text="'Hello to the World: ' + ${hellos} "/>
+
+<ul>
+    <li th:each="hello : ${hellos}" th:text="${hello}">
+    </li>
+</ul>
+
+
 </body>
 </html>
