@@ -38,5 +38,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/listViewID" />
+        android:id="@+id/listViewID"
+        android:layout_above="@+id/sendButton" />
 </RelativeLayout>

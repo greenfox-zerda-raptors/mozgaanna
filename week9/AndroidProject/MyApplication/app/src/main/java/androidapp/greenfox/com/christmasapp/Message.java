@@ -8,15 +8,18 @@ import java.util.Date;
  */
 
 public class Message{
-    String name;
-    String message;
-    Date date;
+     String name;
+     String message;
+     Date time;
 
     public Message(String name, String message){
         this.name = name;
         this.message = message;
     }
 
+    public Message(){
+
+    }
 
 
 }
