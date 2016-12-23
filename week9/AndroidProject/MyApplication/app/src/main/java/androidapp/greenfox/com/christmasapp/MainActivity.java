@@ -10,6 +10,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import okhttp3.ResponseBody;
+import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
@@ -53,51 +54,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         service = retrofit.create(MsgService.class);
 
-
-
-        service.postMessages(new MsgWrapper()).enqueue(new MsgCallback<ResponseBody>() {
+        service.getMessages().enqueue(new Callback<ArrayList<Message>>() {
             @Override
-            public void onResponse(Response<ResponseBody> response) {
-                if (response.code() == 200) {
-                    // itt csinálhatunk valamit, mert tudjuk, hogy sikeresen elküldtük a szervernek az adatokat
-                    // pl frissíthetjük az üzeneteink listáját (új lekérés a szervertől)
-                }
+            public void onResponse( Call<ArrayList<Message>> call, Response<ArrayList<Message>> response) {
+                msgAdapter.clear();
+                msgAdapter.addAll(response.body());
+
             }
 
             @Override
-            public void onFailure(Throwable t) {
-                // itt valami elbaszarintódott, logoljuk ki, adjunk hibaüzenetet, valami.
+            public void onFailure(Call<ArrayList<Message>> call, Throwable t) {
+
             }
         });
 
-
-
-
-
-//        service.postMessages(new MsgWrapper() {
-//            @Override
-//            public <T> T unwrap(Class<T> iface) throws SQLException {
-//                return null;
-//            }
-//
-//            @Override
-//            public boolean isWrapperFor(Class<?> iface) throws SQLException {
-//                return false;
-//            }
-//        }).enqueue(new Callback<ResponseBody>() {
-//            @Override
-//            public void onFailure(Call<ResponseBody> call, Throwable t) {
-//            }
-//            @Override
-//            public void onResponse(Response<ResponseBody> response) {
-//                if (response.code() == 200) {
-//                    // itt csinálhatunk valamit, mert tudjuk, hogy sikeresen elküldtük a szervernek az adatokat
-//                    // pl frissíthetjük az üzeneteink listáját (új lekérés a szervertől)
-//                }
-//            }
-//
-//
-//            });
     }
 
 
@@ -108,7 +78,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v == sendButton){
-            msgAdapter.add(new Message("Anna", textField.toString()));
+            Message m = new Message("Anna", textField.getText().toString());
+            msgAdapter.add(m);
+            service.postMessages(new Wrapper(m)).enqueue(new Callback<ResponseBody>() {
+                @Override
+                public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                }
+
+                @Override
+                public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                }
+            });
+
+            textField.setText("");
         }
     }
 

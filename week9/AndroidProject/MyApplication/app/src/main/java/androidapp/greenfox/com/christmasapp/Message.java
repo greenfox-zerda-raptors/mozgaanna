@@ -8,13 +8,13 @@ import java.util.Date;
  */
 
 public class Message{
-     String name;
-     String message;
+     String username;
+     String body;
      Date time;
 
-    public Message(String name, String message){
-        this.name = name;
-        this.message = message;
+    public Message(String username, String message){
+        this.username = username;
+        this.body = message;
     }
 
     public Message(){
