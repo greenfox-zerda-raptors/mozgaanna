@@ -19,8 +19,7 @@ import java.util.Date;
 @ToString
 public class Meal {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Long id;
 
 

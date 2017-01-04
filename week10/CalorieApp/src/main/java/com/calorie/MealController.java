@@ -23,7 +23,7 @@ public class MealController {
 
     @RequestMapping(value="", method=RequestMethod.GET )
     public String listMeals(Model model){
-        model.addAttribute("meals", repository.findAll());
+        model.addAttribute("meals", repository. findAll());
        return "meals/list";
 
 

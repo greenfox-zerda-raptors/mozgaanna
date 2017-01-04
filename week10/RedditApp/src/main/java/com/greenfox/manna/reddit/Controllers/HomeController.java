@@ -1,8 +1,8 @@
-package com.greenfox.manna.reddit.Controllers;
+package com.greenfox.manna.reddit.controllers;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 
     @ResponseBody
-    @RequestMapping ("/")
-    public String home(Model model){
+    @RequestMapping (value="", method= RequestMethod.GET )
+    public String home(){
         return "home";
     }
 
