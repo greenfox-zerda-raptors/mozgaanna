@@ -41,4 +41,15 @@ public class Post {
         this.name = name;
         this.content = content;
     }
+
+
+    public void increment(){
+        score++;
+    }
+
+    public void decrement(){
+        score--;
+    }
+
+
 }

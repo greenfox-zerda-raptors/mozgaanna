@@ -69,4 +69,5 @@ public class PostsController {
         return new ModelAndView("redirect:/posts");
     }
 
+
 }
