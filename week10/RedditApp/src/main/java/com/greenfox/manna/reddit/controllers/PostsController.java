@@ -49,9 +49,6 @@ public class PostsController {
     }
 
 
-
-
-
     @GetMapping(value = "/{id}/edit")
     public String edit(@PathVariable long id,
                        Model model) {
@@ -60,6 +57,8 @@ public class PostsController {
         return "posts/edit";
     }
 
+
+
     @PostMapping(value = "/update")
     public ModelAndView update(@RequestParam("post_id") long id,
                                @RequestParam("content") String content) {
@@ -67,6 +66,23 @@ public class PostsController {
         post.setContent(content);
         repository.save(post);
         return new ModelAndView("redirect:/posts");
+    }
+
+
+    @RequestMapping(value = "/{id}/upvote")
+    public String upvote(@PathVariable("id") long id) {
+        Post post = repository.findOne(id);
+        post.increment();
+        repository.save(post);
+        return "redirect:/posts";
+    }
+
+    @RequestMapping(value = "/{id}/downvote")
+    public String downvote(@PathVariable("id") long id) {
+        Post post = repository.findOne(id);
+        post.decrement();
+        repository.save(post);
+        return "redirect:/posts";
     }
 
 
