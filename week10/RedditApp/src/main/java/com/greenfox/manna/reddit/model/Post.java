@@ -20,6 +20,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    private String name;
     private String content;
     private int score;
 
@@ -28,8 +29,9 @@ public class Post {
 
     }
 
-    public Post(long id, String content, int score){
+    public Post(long id, String name, String content, int score){
         this.id = id;
+        this.name = name;
         this.content = content;
         this.score = score;
     }

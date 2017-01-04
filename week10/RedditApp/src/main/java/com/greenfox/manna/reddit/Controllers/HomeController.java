@@ -9,13 +9,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by mozgaanna on 04/01/17.
  */
 @Controller
-@RequestMapping ("/reddit")
 public class HomeController {
 
-    @ResponseBody
+
     @RequestMapping (value="", method= RequestMethod.GET )
     public String home(){
-        return "home";
+        return "redirect:/posts";
     }
 
 }
