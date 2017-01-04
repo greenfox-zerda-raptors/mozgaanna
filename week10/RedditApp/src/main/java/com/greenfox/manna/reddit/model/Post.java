@@ -1,6 +1,11 @@
 package com.greenfox.manna.reddit.model;
 
-import groovy.transform.ToString;
+
+
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,8 +16,8 @@ import javax.persistence.Id;
  * Created by mozgaanna on 04/01/17.
  */
 @Entity (name = "posts")
-//@Getter
-//@Setter
+@Getter
+@Setter
 @ToString
 public class Post {
 
@@ -20,19 +25,20 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+
     private String name;
     private String content;
     private int score;
+    private String title;
 
 
     public Post(){
 
     }
 
-    public Post(long id, String name, String content, int score){
-        this.id = id;
+    public Post(String title, String name, String content){
+        this.title = title;
         this.name = name;
         this.content = content;
-        this.score = score;
     }
 }

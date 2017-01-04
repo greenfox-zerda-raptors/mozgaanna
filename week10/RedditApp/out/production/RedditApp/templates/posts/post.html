@@ -10,9 +10,11 @@
             <thead>
             <tr>
                 <th>ID</th>
+                <th>Score</th>
+                <th>Title</th>
                 <th>Name</th>
                 <th>Content</th>
-                <th>Score</th>
+
                 <th>Upvote/Downvote</th>
             </tr>
             </thead>
@@ -20,11 +22,13 @@
 
             <tbody>
 
-            <tr data-th-each="post : ${posts}">
+            <tr data-th-each="post : ${posts}" >
                 <td class="id" data-th-text="${post.id}"></td>
+                <td class="score" data-th-text="${post.score}"></td>
+                <td class="title" data-th-text="${post.title}"></td>
                 <td class="name" data-th-text="${post.name}"></td>
                 <td class="content" data-th-text="${post.content}"></td>
-                <td class="score" data-th-text="${post.score}"></td>
+
 
 
                 <td>
