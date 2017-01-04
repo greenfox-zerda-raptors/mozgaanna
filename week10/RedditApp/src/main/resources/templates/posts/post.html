@@ -1,58 +1,59 @@
+
 <!DOCTYPE html>
 
-    <html layout:decorator="layout" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<html layout:decorator="layout" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
 
-    <div class="content" layout:fragment="content">
+<div class="content" layout:fragment="content">
 
-        <a class="btn btn-primary" href="/posts/add">Add new post</a>
+    <a class="btn btn-primary" href="/posts/add">Add new post</a>
 
-        <table class="table table-striped" id="posts_list">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Score</th>
-                <th>Title</th>
-                <th>Name</th>
-                <th>Content</th>
+    <table class="table table-striped" id="posts_list">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Score</th>
+            <th>Title</th>
+            <th>Name</th>
+            <th>Content</th>
 
-                <th>Upvote/Downvote</th>
-            </tr>
-            </thead>
-
-
-            <tbody>
-
-            <tr data-th-each="post : ${posts}" >
-                <td class="id" data-th-text="${post.id}"></td>
-                <td class="score" data-th-text="${post.score}"></td>
-                <td class="title" data-th-text="${post.title}"></td>
-                <td class="name" data-th-text="${post.name}"></td>
-                <td class="content" data-th-text="${post.content}"></td>
+            <th>Upvote/Downvote</th>
+        </tr>
+        </thead>
 
 
+        <tbody>
 
-                <td>
-                    <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete" th:attr="name=${post.name}">
+        <tr th:each="post : ${posts}">
+            <td class="id" th:text="${post.getId()}"></td>
+            <td class="score" th:text="${post.getScore()}"></td>
+            <td class="title" th:text="${post.getTitle()}"></td>
+            <td class="name" th:text="${post.getName()}"></td>
+            <td class="content" th:text="${post.getContent()}"></td>
+
+
+
+            <td>
+                <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete" th:attr="name=${post.name}">
                         <span class="fa-stack">
                             <i class="glyphicon glyphicon-trash"></i>
                         </span>
-                    </a>
-                </td>
+                </a>
+            </td>
 
-                <td>
-                    <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">
+            <td>
+                <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">
                     <span class="fa-stack">
                         <i class="glyphicon glyphicon-edit"></i>
                     </span>
 
-                    </a>
-                </td>
-            </tr>
+                </a>
+            </td>
+        </tr>
 
-            </tbody>
+        </tbody>
 
 
 
-        </table>
-    </div>
-    </html>
+    </table>
+</div>
+</html>
