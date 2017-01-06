@@ -3,7 +3,6 @@ package com.greenfox.manna.reddit.controllers;
 import com.greenfox.manna.reddit.model.Post;
 import com.greenfox.manna.reddit.repositories.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +21,7 @@ public class PostsController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String listPosts(Model model){
-        model.addAttribute("posts", repository.findAll());
+        model.addAttribute("posts", repository.findByOrderByScoreDesc());
         return "posts/post";
     }
 
@@ -61,9 +60,11 @@ public class PostsController {
 
     @PostMapping(value = "/update")
     public ModelAndView update(@RequestParam("post_id") long id,
-                               @RequestParam("content") String content) {
+                               @RequestParam("content") String content,
+                               @RequestParam("title") String title) {
         Post post = repository.findOne(id);
         post.setContent(content);
+        post.setTitle(title);
         repository.save(post);
         return new ModelAndView("redirect:/posts");
     }
@@ -84,6 +85,8 @@ public class PostsController {
         repository.save(post);
         return "redirect:/posts";
     }
+
+
 
 
 }

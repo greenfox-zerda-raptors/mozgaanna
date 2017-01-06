@@ -20,8 +20,6 @@ public class RedditApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		repository.deleteAll();
-		repository.save(new Post("Workshop of 4th of Jan", "Anna", "This is a nice workshop" ));
 	}
 
 

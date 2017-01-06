@@ -5,3 +5,34 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+
+.score {
+    text-align: center;
+}
+
+.glyphicon {
+    text-align: center;
+    display: block;
+    color: darkred;
+}
+
+.middleth {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: firebrick;
+    border-color: maroon;
+
+}
+.btn-primary:hover {
+    background-color: maroon;
+}
+
+.btn-primary:active {
+    background-color: darkred !important;
+}
+
+.btn-primary:focus {
+    background-color: darkred !important;
+}
