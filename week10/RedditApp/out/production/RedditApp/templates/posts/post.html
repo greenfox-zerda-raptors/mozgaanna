@@ -12,17 +12,9 @@
         <tr>
             <th>ID</th>
             <th>Score</th>
-            <th>Name</th>
-            <th>Title</th>
-
-            <th>Content</th>
-
-
+            <th></th>
             <th>Edit</th>
             <th>Delete</th>
-
-            <th>Upvote</th>
-            <th>Downvote</th>
 
 
         </tr>
@@ -31,34 +23,14 @@
 
         <tbody>
 
+        //ROW 1
+
         <tr th:each="post : ${posts}">
-            <td class="id" th:text="${post.getId()}"></td>
-            <td class="score" th:text="${post.getScore()}"></td>
-            <td class="name" th:text="${post.getName()}"></td>
-            <td class="title" th:text="${post.getTitle()}"></td>
-            <td class="content" th:text="${post.getContent()}"></td>
 
+  //ID
+            <td rowspan="3" class="id" th:text="${post.getId()}"></td>
 
-            <td>
-                <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">
-                    <span class="fa-stack">
-                        <i class="glyphicon glyphicon-edit"></i>
-                    </span>
-
-                </a>
-            </td>
-
-            <td>
-                <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete" th:attr="name=${post.name}">
-                        <span class="fa-stack">
-                            <i class="glyphicon glyphicon-trash"></i>
-                        </span>
-                </a>
-            </td>
-
-
-
-
+  //upbutton
             <td>
                 <a th:href="@{'/posts/{id}/upvote'(id=${post.id})}" class="upvote">
                         <span class="fa-stack">
@@ -67,6 +39,44 @@
                 </a>
             </td>
 
+  //title
+            <td class="title" th:text="${post.getTitle()}"></td>
+
+  //editbutton
+            <td rowspan="3">
+                <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">
+                    <span class="fa-stack">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </span>
+
+                </a>
+            </td>
+  //deletebutton
+            <td rowspan="3">
+             <a th:href="@{'/posts/{id}/delete'(id=${post.id})}" class="delete" th:attr="name=${post.name}">
+                        <span class="fa-stack">
+                            <i class="glyphicon glyphicon-trash"></i>
+                        </span>
+                </a>
+            </td>
+
+        </tr>
+
+
+
+
+
+        //ROW 2
+        <tr>
+            <td class="score" th:text="${post.getScore()}"></td>
+
+            <td class="name" th:text="${post.getName()}"></td>
+        </tr>
+
+
+
+        //ROW 3
+        <tr>
             <td>
                 <a th:href="@{'/posts/{id}/downvote'(id=${post.id})}" class="downvote">
                         <span class="fa-stack">
@@ -75,8 +85,10 @@
                 </a>
             </td>
 
-
+            <td class="content" th:text="${post.getContent()}"></td>
         </tr>
+
+
 
         </tbody>
 
