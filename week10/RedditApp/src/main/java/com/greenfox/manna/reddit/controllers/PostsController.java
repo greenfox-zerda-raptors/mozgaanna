@@ -22,6 +22,7 @@ public class PostsController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String listPosts(Model model){
         model.addAttribute("posts", repository.findByOrderByScoreDesc());
+
         return "posts/post";
     }
 

@@ -13,6 +13,7 @@
             <th>#</th>
             <th class="middleth">Score</th>
             <th></th>
+            <th>Date</th>
             <th class="middleth">Edit</th>
             <th class="middleth">Delete</th>
 
@@ -52,6 +53,7 @@
             </td>
 
 
+            <td class="date" data-th-text="${post.getDate()}"></td>
 
             <td>
                 <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">
