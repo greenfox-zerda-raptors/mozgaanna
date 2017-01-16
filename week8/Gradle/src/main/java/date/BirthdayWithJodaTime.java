@@ -1,6 +1,9 @@
 package date;
 
+import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 
 import java.util.Scanner;
 
@@ -12,13 +15,18 @@ public class BirthdayWithJodaTime implements BirthdayCalculator<LocalDate> {
     @Override
     public LocalDate parseDate(String str) {
         // TODO - return with the parsed date; format is: yyyy-MM-dd
-        return null;
+//        if(str != null) {
+            LocalDate today = new LocalDate(str);
+            return today;
+//        } else {
+//            throw new NullPointerException();
+//        }
     }
 
     @Override
     public String printMonthAndDay(LocalDate date) {
         // TODO - return the date formatted: month & day (MM. dd.)
-        return null;
+        return date.getMonthOfYear() + ". " + date.getDayOfMonth() + ".";
     }
 
     @Override

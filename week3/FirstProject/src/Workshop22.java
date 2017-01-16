@@ -13,6 +13,7 @@ public class Workshop22 {
 //            } else {
 //            comparisonResult = "false";
 //        }
+        String name = ""
         boolean firstIsBigger = (first.length() > second.length());
         if (firstIsBigger) {
             System.out.println("The first is longer!");

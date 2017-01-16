@@ -13,7 +13,7 @@ body {
 .glyphicon {
     text-align: center;
     display: block;
-    color: darkred;
+    color: #993366;
 }
 
 .middleth {
@@ -21,18 +21,18 @@ body {
 }
 
 .btn-primary {
-    background-color: firebrick;
-    border-color: maroon;
+    background-color: #993366;
+    border-color: #73264d;
 
 }
 .btn-primary:hover {
-    background-color: maroon;
+    background-color: #73264d;
 }
 
 .btn-primary:active {
-    background-color: darkred !important;
+    background-color: #4d1933 !important;
 }
 
 .btn-primary:focus {
-    background-color: darkred !important;
+    background-color: #4d1933 !important;
 }

@@ -13,7 +13,7 @@ public class Workshop01 {
         myCar.setKmOdometer(12312);
 
         Car myCar1 = new Car ();
-        myCar1.setName("Ford");
+        myCar1.setName("Fo()rd");
         myCar1.setColor("silver");
         myCar1.setSizeEngine(2500);
         myCar1.setKmOdometer(152312);

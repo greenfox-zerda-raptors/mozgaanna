@@ -1,4 +1,3 @@
-import com.sun.tools.javac.jvm.ClassWriter;
 
 /**
  * Created by mozgaanna on 15/11/16.
@@ -32,8 +31,8 @@ public class Animal {
     }
 
     public Animal(){
-        lifeExpectancy = 10;
-        isCarnivore = false;
+        this.lifeExpectancy = 10;
+        this.isCarnivore = false;
 
         //System.out.println("created an animal");
     }
@@ -42,6 +41,7 @@ public class Animal {
         this();
         System.out.println(type + " animal is created");
     }
+
 
     //Misi mutatta
 //    public Animal (String color, String type){

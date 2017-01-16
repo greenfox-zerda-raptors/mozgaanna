@@ -13,7 +13,7 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
-    background-color: #fcbfbf;
+    background-color: #FEDDA4;
 }
 
 
@@ -37,3 +37,6 @@ code {
     font-size: 80%;
 }
 
+.navbar-brand {
+    color: #FEDDA4 !important;
+}

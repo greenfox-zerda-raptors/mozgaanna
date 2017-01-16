@@ -7,10 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -30,38 +27,27 @@ public class Post {
 
 
     private String name;
+
+    @Column(length=1048576)
     private String content;
-    private int score;
+
+    public int score;
     private String title;
-    private Date date;
 
 
     public Post(){
 
     }
 
-    public Post(String title, String name, String content, Date date){
+    public Post(String title, String name, String content, int score){
         this.title = title;
         this.name = name;
         this.content = content;
-        this.date = date;
-    }
-
-
-    public void increment(){
-        score++;
-    }
-
-    public void decrement(){
-        score--;
+        this.score = score;
     }
 
 
 
-//
-//    public List<Integer> sortAscending(List<Integer> id){
-//        Collections.sort(id);
-//        return id;
-//    }
+
 
 }

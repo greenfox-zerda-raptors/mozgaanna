@@ -6,7 +6,7 @@ public class Workshop18 {
         int sum = 0;
 
         for(int i = 1; i <= n; i++){
-            sum = sum + i;
+            sum += i;
         }
 
         return sum;
@@ -15,6 +15,7 @@ public class Workshop18 {
     public static void main(String[] args) {
         // write a function that sum all the numbers from 1 until the given parameter (a number)
 
-        System.out.println(sumNumber(4));
+        System.out.println(sumNumber(6));
+        System.out.println(sumNumber(60));
     }
 }

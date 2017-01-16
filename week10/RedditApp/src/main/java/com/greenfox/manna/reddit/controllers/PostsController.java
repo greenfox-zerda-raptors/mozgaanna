@@ -1,7 +1,7 @@
 package com.greenfox.manna.reddit.controllers;
 
 import com.greenfox.manna.reddit.model.Post;
-import com.greenfox.manna.reddit.repositories.PostRepository;
+import com.greenfox.manna.reddit.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,21 +17,15 @@ import org.springframework.web.servlet.ModelAndView;
 public class PostsController {
 
     @Autowired
-    private PostRepository repository;
+    private PostService service;
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @GetMapping(value = "")
     public String listPosts(Model model){
-        model.addAttribute("posts", repository.findByOrderByScoreDesc());
-
+        model.addAttribute("posts",
+                service.sortPostByScore());
         return "posts/post";
     }
 
-
-    @RequestMapping(value = "/{id}/delete", method = RequestMethod.GET)
-    public ModelAndView delete(@PathVariable long id) {
-        repository.delete(id);
-        return new ModelAndView("redirect:/posts");
-    }
 
 
 
@@ -40,50 +34,58 @@ public class PostsController {
         model.addAttribute("post", new Post());
         return "posts/add";
     }
-
-
     @PostMapping(value = "/add")
     public String addPosts(@ModelAttribute Post post){
-        repository.save(post);
+        service.save(post);
         return "redirect:/posts";
     }
+
+
+
+
+
+
+    @GetMapping(value = "/{id}/delete")
+    public ModelAndView delete(@PathVariable long id) {
+        service.delete(id);
+        return new ModelAndView("redirect:/posts");
+    }
+
+
 
 
     @GetMapping(value = "/{id}/edit")
     public String edit(@PathVariable long id,
                        Model model) {
-        Post post = repository.findOne(id);
-        model.addAttribute("post", post);
+        model.addAttribute("post", service.findPost(id));
         return "posts/edit";
     }
-
-
-
-    @PostMapping(value = "/update")
-    public ModelAndView update(@RequestParam("post_id") long id,
-                               @RequestParam("content") String content,
-                               @RequestParam("title") String title) {
-        Post post = repository.findOne(id);
-        post.setContent(content);
-        post.setTitle(title);
-        repository.save(post);
-        return new ModelAndView("redirect:/posts");
+    @PostMapping(value = "/edit")
+    public String update(@ModelAttribute Post post) {
+        service.save(post);
+        return "redirect:/posts";
     }
+    @PostMapping(value = "/update")
+    public String update(@RequestParam("post_id") long id,
+                         @RequestParam("content") String content,
+                         @RequestParam("title") String title) {
+        service.update(id, content, title);
+        return "redirect:/posts";
+    }
+
+
+
+
 
 
     @RequestMapping(value = "/{id}/upvote")
     public String upvote(@PathVariable("id") long id) {
-        Post post = repository.findOne(id);
-        post.increment();
-        repository.save(post);
+        service.upvote(id);
         return "redirect:/posts";
     }
-
     @RequestMapping(value = "/{id}/downvote")
     public String downvote(@PathVariable("id") long id) {
-        Post post = repository.findOne(id);
-        post.decrement();
-        repository.save(post);
+        service.downvote(id);
         return "redirect:/posts";
     }
 

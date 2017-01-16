@@ -5,7 +5,7 @@
 
 <div class="content" layout:fragment="content">
 
-    <a class="btn btn-primary" href="/posts/add">Add new post</a>
+    <a class="btn btn-primary" href="/posts/add">Add new recipe</a>
 
     <table class="table table-striped" id="posts_list">
         <thead>
@@ -13,7 +13,7 @@
             <th>#</th>
             <th class="middleth">Score</th>
             <th></th>
-            <th>Date</th>
+            <!--<th>Date</th>-->
             <th class="middleth">Edit</th>
             <th class="middleth">Delete</th>
 
@@ -25,7 +25,7 @@
         <tbody>
 
         <tr th:each="post : ${posts}">
-            <td class="id" th:text="${post.getId()}"></td>
+            <td class="id" th:text="${post.id}"></td>
 
             <td>
                 <p>
@@ -35,7 +35,7 @@
                       </span>
                     </a>
                 </p>
-                <strong><p class="score" th:text="${post.getScore()}"></p></strong>
+                <strong><p class="score" th:text="${post.score}"></p></strong>
                 <p>
                     <a th:href="@{'/posts/{id}/downvote'(id=${post.id})}" class="downvote">
                         <span class="fa-stack">
@@ -53,7 +53,7 @@
             </td>
 
 
-            <td class="date" data-th-text="${post.getDate()}"></td>
+            <!--<td class="date" data-th-text="${post.getDate()}"></td>-->
 
             <td>
                 <a th:href="@{'/posts/{id}/edit'(id=${post.id})}" class="edit" th:attr="name=${post.name}">

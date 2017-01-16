@@ -29,7 +29,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Scanner;
 
-// Eric said this is fine by this, I could't solve my object/NullPointerException problem
+// Eric said this is fine like this, I could't solve my object/NullPointerException problem
 
 public class Workshop13 {
 

@@ -16,14 +16,17 @@ public class Hero extends People {
 
 
     public void incrementAppleHP(){
-        this.setHP(getHP() + 5);
+        this.setHP(getHP() + 50000000);
     }
+
+
 
     public void move(int moveX, int moveY, int[][] board){
         int nextX = posX + moveX;
         int nextY = posY + moveY;
-        if (nextX >= 0 && nextX < board.length && nextY >= 0 && nextY < board.length && board[nextX][nextY] != 0) {
-
+        if (nextX >= 0 && nextX < board.length
+                && nextY >= 0 && nextY < board.length
+                && board[nextX][nextY] != 0) {
             posX += moveX;
             posY += moveY;
         }

@@ -27,7 +27,7 @@
 //                myCar1.name, myCar1.color, myCar1.sizeEngine, myCar1.kmOdometer
 //        );
 //
-//        Car myCar2 = new Car();
+//  F      Car myCar2 = new Car();
 //        myCar2.name = "Beamer";
 //        myCar2.color = "green";
 //        myCar2.sizeEngine = 2800;

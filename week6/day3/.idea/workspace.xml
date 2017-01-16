@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9ce7d3-e26d-4360-831d-873514528adb" name="Default" comment="" />
+    <list default="true" id="9d9ce7d3-e26d-4360-831d-873514528adb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/Abstracts.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/ElectricBassGuitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/ElectricGuitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/StringedInstrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/out/production/Abstracts/main/java/music/Violin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/ElectricBassGuitar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/ElectricGuitar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/Instrument.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/StringedInstrument.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week5/day3/src/main/java/music/Violin.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/day3/out/production/day3/Workshop18.class" afterPath="$PROJECT_DIR$/../../week3/day3/out/production/day3/Workshop18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/ProjectManna/out/production/ProjectManna/Project.class" afterPath="$PROJECT_DIR$/../../week4/ProjectManna/out/production/ProjectManna/Project.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day1/out/production/day1/Workshop15.class" afterPath="$PROJECT_DIR$/../../week4/day1/out/production/day1/Workshop15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day2/out/production/TryCatchFinally/Workshop14.class" afterPath="$PROJECT_DIR$/../../week4/day2/out/production/TryCatchFinally/Workshop14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/ProjectToDo/out/production/ProjectToDo/App.class" afterPath="$PROJECT_DIR$/../../week5/ProjectToDo/out/production/ProjectToDo/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project/out/production/ImageProject/Gallery.class" afterPath="$PROJECT_DIR$/../Project/out/production/ImageProject/Gallery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/out/production/Testing-competition/App.class" afterPath="$PROJECT_DIR$/../day1/Competition/out/production/Testing-competition/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/out/production/Testing-competition/WordToolbox.class" afterPath="$PROJECT_DIR$/../day1/Competition/out/production/Testing-competition/WordToolbox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/out/test/Testing-competition/TestAnnaMozga.class" afterPath="$PROJECT_DIR$/../day1/Competition/out/test/Testing-competition/TestAnnaMozga.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Board.class" afterPath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Board.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Info.class" afterPath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Main.class" afterPath="$PROJECT_DIR$/../../week7/RPGGame/out/production/RPGGame/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week1/project week 1/cv.project.html" afterPath="$PROJECT_DIR$/../../week1/project week 1/cv.project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week2/WikiProject/wikiproject.css" afterPath="$PROJECT_DIR$/../../week2/WikiProject/wikiproject.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week2/WikiProject/wikiproject.html" afterPath="$PROJECT_DIR$/../../week2/WikiProject/wikiproject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week2/day1layout/problem2/problem2.css" afterPath="$PROJECT_DIR$/../../week2/day1layout/problem2/problem2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week2/day2/forms.html" afterPath="$PROJECT_DIR$/../../week2/day2/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/FirstProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week3/FirstProject/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop22.java" afterPath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop22.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop24.java" afterPath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop24.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop35.java" afterPath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop35.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop36.java" afterPath="$PROJECT_DIR$/../../week3/FirstProject/src/Workshop36.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/day3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week3/day3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/day3/src/Workshop14.java" afterPath="$PROJECT_DIR$/../../week3/day3/src/Workshop14.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3/day3/src/Workshop18.java" afterPath="$PROJECT_DIR$/../../week3/day3/src/Workshop18.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/ProjectManna/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week4/ProjectManna/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/ProjectManna/src/Project.java" afterPath="$PROJECT_DIR$/../../week4/ProjectManna/src/Project.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week4/day1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day1/src/Workshop15.java" afterPath="$PROJECT_DIR$/../../week4/day1/src/Workshop15.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week4/day2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4/day2/src/Workshop13.java" afterPath="$PROJECT_DIR$/../../week4/day2/src/Workshop13.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/ProjectToDo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week5/ProjectToDo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/ProjectToDo/src/App.java" afterPath="$PROJECT_DIR$/../../week5/ProjectToDo/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day1/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../week5/day1/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week5/day1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day1/src/App.java" afterPath="$PROJECT_DIR$/../../week5/day1/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day1/src/Car.java" afterPath="$PROJECT_DIR$/../../week5/day1/src/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day1/src/Workshop01.java" afterPath="$PROJECT_DIR$/../../week5/day1/src/Workshop01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week5/day2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day2/src/Animal.java" afterPath="$PROJECT_DIR$/../../week5/day2/src/Animal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week5/day3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day3/Instruments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week5/day3/Instruments/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/ElectricGuitar.java" afterPath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/ElectricGuitar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/Instrument.java" afterPath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/Instrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/StringedInstrument.java" afterPath="$PROJECT_DIR$/../../week5/day3/Instruments/src/main/java/music/StringedInstrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project/src/Gallery.java" afterPath="$PROJECT_DIR$/../Project/src/Gallery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../day1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../day1/Competition/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/src/App.java" afterPath="$PROJECT_DIR$/../day1/Competition/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/src/WordToolbox.java" afterPath="$PROJECT_DIR$/../day1/Competition/src/WordToolbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day1/Competition/tests/TestAnnaMozga.java" afterPath="$PROJECT_DIR$/../day1/Competition/tests/TestAnnaMozga.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageApp.java" afterPath="$PROJECT_DIR$/src/ImageApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UIControls.java" afterPath="$PROJECT_DIR$/src/UIControls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../day4/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day4/src/EventCounter.java" afterPath="$PROJECT_DIR$/../day4/src/EventCounter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week7/RPGGame/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/src/Board.java" afterPath="$PROJECT_DIR$/../../week7/RPGGame/src/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/src/GameObject.java" afterPath="$PROJECT_DIR$/../../week7/RPGGame/src/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/src/Info.java" afterPath="$PROJECT_DIR$/../../week7/RPGGame/src/Info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week7/RPGGame/src/Main.java" afterPath="$PROJECT_DIR$/../../week7/RPGGame/src/Main.java" />
+    </list>
     <ignored path="HelloWorldSwing.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,46 +97,50 @@
     <favorites_list name="HelloWorldSwing" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="705">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="68" column="10" selection-start-line="60" selection-start-column="8" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="690">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIControls.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIControls.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UIControls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="945">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +154,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -82,9 +165,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/ImageApp.java" />
         <option value="$PROJECT_DIR$/src/Counter.java" />
         <option value="$PROJECT_DIR$/src/UIControls.java" />
+        <option value="$PROJECT_DIR$/src/HelloWorld.java" />
       </list>
     </option>
   </component>
@@ -95,11 +179,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1263" />
     <option name="height" value="709" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -159,8 +244,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +253,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week5/ProjectToDo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.UIControls">
     <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -204,6 +289,21 @@
     <configuration default="false" name="UIControls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="UIControls" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorldSwing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ImageApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -443,6 +543,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -608,6 +709,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -623,16 +730,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
       <item index="1" class="java.lang.String" itemvalue="Application.Counter" />
       <item index="2" class="java.lang.String" itemvalue="Application.UIControls" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ImageApp" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.UIControls" />
         <item index="1" class="java.lang.String" itemvalue="Application.Counter" />
         <item index="2" class="java.lang.String" itemvalue="Application.HelloWorld" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ImageApp" />
       </list>
     </recent_temporary>
   </component>
@@ -646,42 +755,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479897552648</updated>
-      <workItem from="1479897556449" duration="10630000" />
+      <workItem from="1479897556449" duration="11650000" />
+      <workItem from="1479926157479" duration="1267000" />
+      <workItem from="1479994275611" duration="3990000" />
+      <workItem from="1480064798063" duration="5261000" />
+      <workItem from="1480927609006" duration="1762000" />
+      <workItem from="1481105612568" duration="598000" />
     </task>
+    <task id="LOCAL-00001" summary="UI Controls">
+      <created>1479915347434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479915347434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10630000" />
+    <option name="totallyTimeSpent" value="24528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <frame x="8" y="23" width="1263" height="709" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051863857" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25307125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -695,6 +817,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI Controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Controls" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -706,37 +832,234 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="705">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="68" column="10" selection-start-line="60" selection-start-column="8" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UIControls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="945">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="68" column="10" selection-start-line="60" selection-start-column="8" selection-end-line="68" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

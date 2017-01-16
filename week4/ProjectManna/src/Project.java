@@ -16,7 +16,10 @@ public class Project{
         System.out.println();
         int number = randomGenerator.nextInt(100) + 1;
 
-        System.out.println("Hello World. Do you wanna play a game? I've got a number. You have 6 guesses. Let the game begin.  \n");
+        //System.out.println(number);
+        //System.out.println();
+
+        System.out.println("Hello World. Do you wanna play a game? \n I've got a number. You have 6 guesses. Let the game begin.  \n");
 
         int rounds = 0;
 
@@ -41,6 +44,8 @@ public class Project{
             } else {
                 System.out.println("Yes, you got it! Finally -.-'' " );
             }
+
+
         } while (guess != number && rounds < 6);
         if (rounds >= 6) {
             System.out.println("Oh, you bloody loser!");

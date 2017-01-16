@@ -66,8 +66,10 @@ public class Gallery extends JFrame {
 
         JButton upLeftButton = new JButton("<");
         upLeftButton.setBorderPainted(false);
+
         ListenForLeftButton forLeftButton = new ListenForLeftButton();
         upLeftButton.addActionListener(forLeftButton);
+
         upLeftButton.setFont(new Font("Serif", Font.BOLD, 52));
         upPanel.add(upLeftButton);
 
@@ -79,8 +81,10 @@ public class Gallery extends JFrame {
 
         JButton upRightButton = new JButton(">");
         upRightButton.setBorderPainted(false);
+
         ListenForRightButton forRightButton = new ListenForRightButton();
         upRightButton.addActionListener(forRightButton);
+
         upRightButton.setFont(new Font("Serif", Font.BOLD, 52));
         upPanel.add(upRightButton);
 
@@ -100,7 +104,6 @@ public class Gallery extends JFrame {
         }
 
 //MAINPANEL
-
         mainPanel = new JPanel();
         mainPanel.add(upPanel);
         mainPanel.add(downPanel);
@@ -129,11 +132,13 @@ public class Gallery extends JFrame {
     private class ListenForRightButton implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
-            index++;
-            if(index == myLabels.size()) {
-                index = 0;}
-            upperImageLabel.setIcon(myLabels.get(index).getIcon());
-        }
+                index++;
+                if (index == myLabels.size()) {
+                    index = 0;
+                }
+                upperImageLabel.setIcon(myLabels.get(index).getIcon());
+            }
+
 
     }
 

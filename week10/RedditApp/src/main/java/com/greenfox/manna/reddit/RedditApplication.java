@@ -1,7 +1,6 @@
 package com.greenfox.manna.reddit;
 
-import com.greenfox.manna.reddit.model.Post;
-import com.greenfox.manna.reddit.repositories.PostRepository;
+import com.greenfox.manna.reddit.service.PostRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

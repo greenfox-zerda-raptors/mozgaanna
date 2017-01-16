@@ -9,5 +9,15 @@ public class App {
         System.out.println ("countHowMany(\'T\')=" + wSource.countHowMany('T')); // \\ countHowMany('T')=2
         System.out.println ("countHowMany(\'t\')=" + wSource.countHowMany('t')); // \\ countHowMany('t')=2
         System.out.println ("countHowMany(\'x\')=" + wSource.countHowMany('x')); // \\ countHowMany('x')=0
+
+
+
+        System.out.println("countHowManyVowels in:" + wSource.countHowManyVowels('a'));
+        System.out.println("countHowManyVowels in:" + wSource.countHowManyVowels('e'));
+        System.out.println("countHowManyVowels in:" + wSource.countHowManyVowels('i'));
+        System.out.println("countHowManyVowels in:" + wSource.countHowManyVowels('o'));
+        System.out.println("countHowManyVowels in:" + wSource.countHowManyVowels('u'));
+
+
     }
 }

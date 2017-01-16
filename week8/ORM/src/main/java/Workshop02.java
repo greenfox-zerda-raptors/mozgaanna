@@ -23,15 +23,15 @@ public class Workshop02 {
 
         Dao<Account, String> accountDao = DaoManager.createDao(connectionSource, Account.class);
 
-//        Account accountCaptain = new Account("Captain America", "uejnsd632**234.");
-//        createAccountIfNotExists(accountDao, account);
+        Account accountCaptain = new Account("Captain America", "uejnsd632**234.");
+        createAccountIfNotExists(accountDao, accountCaptain);
 
-        ArrayList<String> names = new ArrayList<>(Arrays.asList("Captain America", "Iron Man", "Wolverine", "Hulk", "Loki"));
-        ArrayList<String> passwords = new ArrayList<>(Arrays.asList("uejnsd632**234.", "fdghj", "ipokn644hr", "3qyjyu78", "43tjdtu9"));
-
-        for(int i = 0; i < names.size(); i++) {
-            createAccountIfNotExists(accountDao, new Account(names.get(i), passwords.get(i)));
-        }
+//        ArrayList<String> names = new ArrayList<>(Arrays.asList("Captain America", "Iron Man", "Wolverine", "Hulk", "Loki"));
+//        ArrayList<String> passwords = new ArrayList<>(Arrays.asList("uejnsd632**234.", "fdghj", "ipokn644hr", "3qyjyu78", "43tjdtu9"));
+//
+//        for(int i = 0; i < names.size(); i++) {
+//            createAccountIfNotExists(accountDao, new Account(names.get(i), passwords.get(i)));
+//        }
 
         QueryBuilder<Account, String> queryBuilder = accountDao.queryBuilder();
         queryBuilder.orderBy("name", true);

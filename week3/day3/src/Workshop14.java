@@ -4,7 +4,7 @@
 public class Workshop14 {
     public static void main(String[] args) {
         // Reverse the order of ah
-        int[] ah = new int[]  { 3, 4, 5, 6, 7  };
+        int[] ah = new int[]{3, 4, 5, 6, 7};
 
         int tmp = ah[0];
         ah[0] = ah[4];
@@ -22,7 +22,7 @@ public class Workshop14 {
 //        }
 
 
-        for(int i = 0; i < ah.length; i++){
+        for (int i = 0; i < ah.length; i++) {
             System.out.print(ah[i]);
             if (i < ah.length - 1) {
                 System.out.print(", ");
@@ -32,4 +32,3 @@ public class Workshop14 {
         System.out.println();
     }
 
-}

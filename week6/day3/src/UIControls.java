@@ -40,7 +40,6 @@ public class UIControls extends JFrame implements ActionListener{
         myField.setLayout(new FlowLayout());
         myField.setText("Please type something");
 
-
         JButton clearButton = new JButton("Clear memory");
         myPanel.add(clearButton);
 
@@ -64,6 +63,8 @@ public class UIControls extends JFrame implements ActionListener{
 
     }
 
+
+
     @Override
     public void actionPerformed(ActionEvent e) {
         label2.setText(label1.getText());
@@ -73,3 +74,5 @@ public class UIControls extends JFrame implements ActionListener{
     }
 
 }
+
+

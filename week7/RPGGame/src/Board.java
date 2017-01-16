@@ -18,8 +18,8 @@ public class Board extends JComponent implements KeyListener {
     ArrayList<People> attackers;
 
     Hero hero = new Hero();
-    Skeleton skeleton1 = new Skeleton(7, 2);
-    Skeleton skeleton2 = new Skeleton(2, 4);
+    Skeleton skeletonOne = new Skeleton(7, 2);
+    Skeleton skeletonTwo = new Skeleton(2, 4);
     Boss boss = new Boss();
     Apple apple = new Apple(10, 0);
     int[][] board;
@@ -71,8 +71,13 @@ public class Board extends JComponent implements KeyListener {
             }
         }
 
-        attackers = new ArrayList<>(Arrays.asList(boss, skeleton1, skeleton2));
+
+
+
+
+        attackers = new ArrayList<>(Arrays.asList(boss, skeletonOne, skeletonTwo));
     }
+
 
 
     @Override
@@ -80,32 +85,33 @@ public class Board extends JComponent implements KeyListener {
         for (GameObject gameObject : gameObjects) {
             gameObject.draw(graphics);
         }
-        apple.draw(graphics);
-
-
-        if (skeleton1.isAlive) {
-            skeleton1.draw(graphics);
-        }
-        graphics.drawString(skeleton1.toString(), 20, 570);
-
-
-        if (skeleton2.isAlive){
-            skeleton2.draw(graphics);
-        }
-        graphics.drawString(skeleton2.toString(), 20, 600);
 
         if (boss.isAlive){
             boss.draw(graphics);
-        }
-        graphics.drawString(boss.toString(), 20, 630);
-
+        } graphics.drawString(boss.toString(), 20, 570);
 
         hero.draw(graphics);
         graphics.drawString(hero.toString(), 20, 540);
 
+
+
+
+
+
+        apple.draw(graphics);
+
         if (hero.posX == apple.posX && hero.posY == apple.posY){
             hero.incrementAppleHP();
         }
+
+
+        if (skeletonOne.isAlive) {
+            skeletonOne.draw(graphics);
+        } graphics.drawString(skeletonOne.toString(), 20, 630);
+
+        if (skeletonTwo.isAlive){
+            skeletonTwo.draw(graphics);
+        } graphics.drawString(skeletonTwo.toString(), 20, 600);
 
     }
 
@@ -115,6 +121,7 @@ public class Board extends JComponent implements KeyListener {
     public void keyTyped(KeyEvent e) {
 
     }
+
 
 
     @Override
@@ -139,15 +146,21 @@ public class Board extends JComponent implements KeyListener {
                 break;
             case KeyEvent.VK_SPACE:
                 for (People monster : attackers) {
-                    if (hero.posX == monster.posX && hero.posY == monster.posY && monster.isAlive) {
+                    if (hero.posX == monster.posX
+                            && hero.posY == monster.posY
+                            && monster.isAlive) {
                         hero.attack(monster);
                         monster.attack(hero);
                     }
                 }
         }
-
         repaint();
     }
+
+
+
+
+
 
     @Override
     public void keyReleased(KeyEvent e) {

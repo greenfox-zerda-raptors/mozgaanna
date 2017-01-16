@@ -35,12 +35,6 @@ public class Car {
         return name;
     }
 
-    public void setColor (String color){
-        this.color = color;
-    }
-    public String getColor (){
-        return color;
-    }
 
     public void setSizeEngine (int sizeEngine){
         this.sizeEngine = sizeEngine;
@@ -81,7 +75,9 @@ public class Car {
         this.color = color;
         this.sizeEngine = 1600;
         this.kmOdometer = 10;
-    }
+
+//        this(name, color, 1600, 10);
+    }n
 
     public Car (int sizeEngine, int kmOdometer){
         this.name = "Mazda";
