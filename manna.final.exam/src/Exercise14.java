@@ -12,6 +12,7 @@ public class Exercise14 {
         System.out.print(Arrays.toString(output));
     }
 
+
     public static void main(String[] args){
         splitting();
     }
